@@ -83,7 +83,7 @@ function setupScreen() {
       h('label', 'Day 1 is', start),
       h('label', 'Parent PIN', pin, h('span.small.muted', 'Protects the parent view and settings on this iPad.')),
       h('button.btn.primary.big', { type: 'button', on: { click: go } }, 'Set up this iPad')),
-    h('p.small', 'Setting up a parent\'s phone or the family sync? ', h('a', { href: '#/sync-setup' }, 'Open the sync setup'), ' or open the setup link you were sent.')));
+    h('p.small', 'Setting up a parent\'s phone? ', h('a', { href: '#/sync-setup' }, 'Open the sync setup'), '. Connecting this iPad to sync comes after setup, from Parent → Family sync.')));
 }
 
 // ---------------- student home ----------------
@@ -220,7 +220,20 @@ async function parentLocal() {
   for (const k of (await store.keys('daylog:')).sort().reverse().slice(0, 30)) days.push(await store.get(k));
   let family = null; try { if (S.isConfigured(config) && S.currentUser()) family = await S.getFamily(); } catch {}
   renderDashboard(wrap, { model: state, history: state.history, alerts: [], days, course, family, live: false }, localActions());
-  wrap.prepend(localSettings());
+  wrap.prepend(localSettings(), syncPanel());
+}
+// The home-screen app keeps its own storage, separate from Safari, so the setup link is pasted here rather than opened in Safari.
+function syncPanel() {
+  if (S.isConfigured(config)) return h('section.panel', h('h2', 'Family sync'), h('p.small.muted', `Connected${config.email ? ' as ' + config.email : ''}. Progress goes to the parent dashboard after every session.`));
+  const link = h('input', { type: 'url', placeholder: 'Paste the setup link from the parent\'s phone', autocomplete: 'off' });
+  const go = () => {
+    const m = String(link.value).match(/[?&]c=([^&\s]+)/);
+    if (!m) return toast('That isn\'t a setup link. Copy the whole link from the sync setup on your phone.');
+    parentUnlocked = false; location.hash = '#/join?c=' + m[1];
+  };
+  return h('section.panel', h('h2', 'Family sync'),
+    h('p.small.muted', 'Set up sync on your phone first. Then paste the link it gives you here and sign in with the student account.'),
+    h('div.form.inline', h('label', 'Setup link', link), h('button.btn', { type: 'button', on: { click: go } }, 'Connect')));
 }
 function localActions() {
   return {
@@ -288,7 +301,7 @@ async function syncSetup() {
       const code = btoa(JSON.stringify({ firebase: fbc, fid }));
       const link = `${location.origin}${location.pathname}#/join?c=${encodeURIComponent(code)}`;
       clear(out).append(h('div.callout.good', h('p', h('strong', 'Sync is ready.')),
-        h('p', 'Open this link on the iPad and sign in with the student account:'), h('p.topic', h('code', { 'data-link': link }, link.slice(0, 64) + '…'), ' ', h('button.btn.small', { type: 'button', on: { click: () => { navigator.clipboard?.writeText(link); toast('Link copied'); } } }, 'Copy link'), navigator.share ? h('button.btn.small', { type: 'button', on: { click: () => navigator.share({ title: 'The Trial', url: link }) } }, 'Share') : null),
+        h('p', 'Copy this link and send it to the iPad (AirDrop or a message). On the iPad, open The Trial from its home-screen icon → Parent → Family sync, paste the link, and sign in with the student account:'), h('p.topic', h('code', { 'data-link': link }, link.slice(0, 64) + '…'), ' ', h('button.btn.small', { type: 'button', on: { click: () => { navigator.clipboard?.writeText(link); toast('Link copied'); } } }, 'Copy link'), navigator.share ? h('button.btn.small', { type: 'button', on: { click: () => navigator.share({ title: 'The Trial', url: link }) } }, 'Share') : null),
         h('p', 'For alerts on your phone, install the free ntfy app and subscribe to:'), h('p.topic', h('code', fam.ntfyTopic)),
         h('a.btn.primary', { href: '#/home', on: { click: () => setTimeout(route, 0) } }, 'Open the live dashboard')));
     } catch (e) {

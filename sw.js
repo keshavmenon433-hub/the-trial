@@ -1,6 +1,6 @@
 // Service worker: app shell cached for offline use; lessons are cached as they're fetched.
 // New content packs are fetched network-first so updates arrive automatically.
-const VERSION = 'trial-v1';
+const VERSION = 'trial-v2';
 const SHELL = ['./', './index.html', './css/app.css', './manifest.webmanifest',
   './js/app.js', './js/util.js', './js/store.js', './js/engine.js', './js/content.js', './js/session.js', './js/keypad.js', './js/scratch.js', './js/parent.js', './js/sync.js', './js/mathcheck.js',
   './vendor/katex/katex.min.js', './vendor/katex/katex.min.css', './vendor/marked.min.js', './vendor/firebase.js',
