@@ -306,7 +306,7 @@ async function syncSetup() {
 const SETUP_STEPS = `This connects the iPad to a private database in **your own** free Firebase project, so this dashboard updates live and alerts reach your phone. About 20 minutes, once.
 
 1. Go to **console.firebase.google.com**, sign in with a Google account, and **Create a project** (any name, Analytics off).
-2. **Build → Authentication → Get started → Email/Password → Enable.** Then **Users → Add user** twice: one account for you, one for your student (any email you control works for him; he never needs its inbox).
+2. **Build → Authentication → Get started → Email/Password → Enable.** Then **Users → Add user** twice: one account for you, one for your student (any email you control works for him; he never needs its inbox). Last, open Authentication's **Settings → Authorized domains → Add domain** and add \`${location.host}\`.
 3. **Build → Firestore Database → Create database** (production mode, any US location). Open its **Rules** tab, replace everything with the rules below, and **Publish**.
 4. **Project settings (gear) → Your apps → Web (</>)**, register an app (no hosting), and copy the \`firebaseConfig\` block. Paste it below, fill in the two emails and your password, and press **Connect**.`;
 
