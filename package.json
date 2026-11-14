@@ -1,0 +1,13 @@
+{
+  "name": "the-trial",
+  "private": true,
+  "description": "The Trial: a one-year, mastery-based math course from pre-algebra to AP Calculus BC, for iPad.",
+  "scripts": {
+    "course": "node tools/build_course.mjs",
+    "verify": "node tools/test_mathcheck.mjs && node tools/sim_engine.mjs"
+  },
+  "devDependencies": {
+    "katex": "^0.16.11"
+  },
+  "type": "module"
+}

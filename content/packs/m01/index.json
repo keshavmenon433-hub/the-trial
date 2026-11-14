@@ -1,0 +1,31 @@
+{
+ "id": "m01",
+ "generators": "gen.js",
+ "bank": "bank.json",
+ "sessions": {
+  "d001": "d001.json",
+  "d002": "d002.json",
+  "d003": "d003.json",
+  "d004": "d004.json",
+  "d005": "d005.json",
+  "d006": "d006.json",
+  "d008": "d008.json",
+  "d009": "d009.json",
+  "d010": "d010.json",
+  "d011": "d011.json",
+  "d012": "d012.json",
+  "d013": "d013.json",
+  "d015": "d015.json",
+  "d016": "d016.json",
+  "d017": "d017.json",
+  "d018": "d018.json",
+  "d019": "d019.json",
+  "d020": "d020.json",
+  "d022": "d022.json",
+  "d023": "d023.json",
+  "d024": "d024.json",
+  "d025": "d025.json",
+  "d026": "d026.json"
+ },
+ "builtAt": "2026-11-14T07:25:45.990Z"
+}

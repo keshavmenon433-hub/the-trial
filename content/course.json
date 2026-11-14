@@ -1,0 +1,6191 @@
+{
+ "version": 1,
+ "title": "The Trial",
+ "days": 365,
+ "units": [
+  {
+   "id": "PA",
+   "name": "Pre-Algebra",
+   "startDay": 1,
+   "endDay": 28
+  },
+  {
+   "id": "AL",
+   "name": "Algebra",
+   "startDay": 29,
+   "endDay": 91
+  },
+  {
+   "id": "CP",
+   "name": "Counting & Probability",
+   "startDay": 92,
+   "endDay": 112
+  },
+  {
+   "id": "GE",
+   "name": "Geometry",
+   "startDay": 113,
+   "endDay": 161
+  },
+  {
+   "id": "NT",
+   "name": "Number Theory",
+   "startDay": 162,
+   "endDay": 182
+  },
+  {
+   "id": "IA",
+   "name": "Intermediate Algebra",
+   "startDay": 183,
+   "endDay": 238
+  },
+  {
+   "id": "PC",
+   "name": "Precalculus",
+   "startDay": 239,
+   "endDay": 273
+  },
+  {
+   "id": "CA",
+   "name": "Calculus (AP BC)",
+   "startDay": 274,
+   "endDay": 348
+  },
+  {
+   "id": "FN",
+   "name": "Final Synthesis",
+   "startDay": 349,
+   "endDay": 365
+  }
+ ],
+ "skills": {
+  "pa.props": {
+   "name": "Properties of arithmetic",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 1
+  },
+  "pa.signed": {
+   "name": "Negative numbers & division",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 2
+  },
+  "pa.exp": {
+   "name": "Exponents",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 3
+  },
+  "pa.divis": {
+   "name": "Divisibility",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 4
+  },
+  "pa.primes": {
+   "name": "Primes",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 4
+  },
+  "pa.factor": {
+   "name": "Prime factorization",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 5
+  },
+  "pa.gcdlcm": {
+   "name": "GCD & LCM",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 5
+  },
+  "pa.frac.md": {
+   "name": "Fractions: × and ÷",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 6
+  },
+  "pa.frac.as": {
+   "name": "Fractions: + and −",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 8
+  },
+  "pa.expr": {
+   "name": "Expressions & like terms",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 9
+  },
+  "pa.lineq": {
+   "name": "Linear equations",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 10
+  },
+  "pa.wordeq": {
+   "name": "Word problems → equations",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 11
+  },
+  "pa.ineq": {
+   "name": "Inequalities",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 11
+  },
+  "pa.dec": {
+   "name": "Decimals",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 12
+  },
+  "pa.ratio": {
+   "name": "Ratios & proportions",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 13
+  },
+  "pa.rates": {
+   "name": "Rates & speed",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 15
+  },
+  "pa.pct": {
+   "name": "Percents",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 16
+  },
+  "pa.sqrt": {
+   "name": "Square roots",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 17
+  },
+  "pa.angles": {
+   "name": "Angles & polygons",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 18
+  },
+  "pa.area": {
+   "name": "Perimeter & area",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 19
+  },
+  "pa.circle": {
+   "name": "Circles",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 19
+  },
+  "pa.pyth": {
+   "name": "Pythagorean theorem",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 20
+  },
+  "pa.stats": {
+   "name": "Statistics",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 22
+  },
+  "pa.count1": {
+   "name": "Counting basics",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 23
+  },
+  "pa.count2": {
+   "name": "Casework counting",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 24
+  },
+  "pa.prob": {
+   "name": "Basic probability",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 24
+  },
+  "pa.strat": {
+   "name": "Problem-solving strategies",
+   "unit": "PA",
+   "w": 1,
+   "firstDay": 25
+  },
+  "al.expr": {
+   "name": "Expr",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 29
+  },
+  "al.lin": {
+   "name": "Lin",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 30
+  },
+  "al.literal": {
+   "name": "Literal",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 31
+  },
+  "al.abs": {
+   "name": "Abs",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 32
+  },
+  "al.graph": {
+   "name": "Graph",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 33
+  },
+  "al.slope": {
+   "name": "Slope",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 34
+  },
+  "al.lineeq": {
+   "name": "Lineeq",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 36
+  },
+  "al.perp": {
+   "name": "Perp",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 37
+  },
+  "al.dist": {
+   "name": "Dist",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 37
+  },
+  "al.sys": {
+   "name": "Sys",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 38
+  },
+  "al.syswp": {
+   "name": "Syswp",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 40
+  },
+  "al.ineq": {
+   "name": "Ineq",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 41
+  },
+  "al.ineq2": {
+   "name": "Ineq2",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 43
+  },
+  "al.var": {
+   "name": "Var",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 44
+  },
+  "al.func": {
+   "name": "Func",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 45
+  },
+  "al.func2": {
+   "name": "Func2",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 46
+  },
+  "al.exp": {
+   "name": "Exp",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 48
+  },
+  "al.poly": {
+   "name": "Poly",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 50
+  },
+  "al.special": {
+   "name": "Special",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 51
+  },
+  "al.factor1": {
+   "name": "Factor1",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 52
+  },
+  "al.factor2": {
+   "name": "Factor2",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 53
+  },
+  "al.factor3": {
+   "name": "Factor3",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 54
+  },
+  "al.quadsolve": {
+   "name": "Quadsolve",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 55
+  },
+  "al.ctsq": {
+   "name": "Ctsq",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 57
+  },
+  "al.qf": {
+   "name": "Qf",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 58
+  },
+  "al.vieta": {
+   "name": "Vieta",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 59
+  },
+  "al.parab": {
+   "name": "Parab",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 60
+  },
+  "al.quadwp": {
+   "name": "Quadwp",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 61
+  },
+  "al.quadineq": {
+   "name": "Quadineq",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 62
+  },
+  "al.rad": {
+   "name": "Rad",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 64
+  },
+  "al.radeq": {
+   "name": "Radeq",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 65
+  },
+  "al.ratexp": {
+   "name": "Ratexp",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 66
+  },
+  "al.ratexpr": {
+   "name": "Ratexpr",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 67
+  },
+  "al.ratexpr2": {
+   "name": "Ratexpr2",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 68
+  },
+  "al.rateq": {
+   "name": "Rateq",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 69
+  },
+  "al.wp": {
+   "name": "Wp",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 71
+  },
+  "al.transform": {
+   "name": "Transform",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 72
+  },
+  "al.nlsys": {
+   "name": "Nlsys",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 73
+  },
+  "al.expeq": {
+   "name": "Expeq",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 74
+  },
+  "al.polydiv": {
+   "name": "Polydiv",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 75
+  },
+  "al.contest": {
+   "name": "Contest",
+   "unit": "AL",
+   "w": 0.5,
+   "firstDay": 78
+  },
+  "al.arith": {
+   "name": "Arith",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 79
+  },
+  "al.geo": {
+   "name": "Geo",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 80
+  },
+  "al.sigma": {
+   "name": "Sigma",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 81
+  },
+  "al.expfn": {
+   "name": "Expfn",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 82
+  },
+  "al.log": {
+   "name": "Log",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 83
+  },
+  "al.special_fn": {
+   "name": "Special fn",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 85
+  },
+  "al.manip": {
+   "name": "Manip",
+   "unit": "AL",
+   "w": 1,
+   "firstDay": 86
+  },
+  "cp.basic": {
+   "name": "Basic",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 92
+  },
+  "cp.perm": {
+   "name": "Perm",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 93
+  },
+  "cp.comb": {
+   "name": "Comb",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 94
+  },
+  "cp.case": {
+   "name": "Case",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 95
+  },
+  "cp.stars": {
+   "name": "Stars",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 96
+  },
+  "cp.prob": {
+   "name": "Prob",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 97
+  },
+  "cp.prob2": {
+   "name": "Prob2",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 99
+  },
+  "cp.ev": {
+   "name": "Ev",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 100
+  },
+  "cp.pascal": {
+   "name": "Pascal",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 101
+  },
+  "cp.pie": {
+   "name": "Pie",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 102
+  },
+  "cp.pigeon": {
+   "name": "Pigeon",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 103
+  },
+  "cp.recur": {
+   "name": "Recur",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 104
+  },
+  "cp.circ": {
+   "name": "Circ",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 106
+  },
+  "cp.prob3": {
+   "name": "Prob3",
+   "unit": "CP",
+   "w": 1,
+   "firstDay": 107
+  },
+  "cp.contest": {
+   "name": "Contest",
+   "unit": "CP",
+   "w": 0.5,
+   "firstDay": 108
+  },
+  "ge.angle": {
+   "name": "Angle",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 113
+  },
+  "ge.tri": {
+   "name": "Tri",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 114
+  },
+  "ge.cong": {
+   "name": "Cong",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 115
+  },
+  "ge.area": {
+   "name": "Area",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 116
+  },
+  "ge.sim": {
+   "name": "Sim",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 117
+  },
+  "ge.sim2": {
+   "name": "Sim2",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 118
+  },
+  "ge.right": {
+   "name": "Right",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 120
+  },
+  "ge.special": {
+   "name": "Special",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 121
+  },
+  "ge.cevian": {
+   "name": "Cevian",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 122
+  },
+  "ge.bisect": {
+   "name": "Bisect",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 123
+  },
+  "ge.quad": {
+   "name": "Quad",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 124
+  },
+  "ge.poly": {
+   "name": "Poly",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 125
+  },
+  "ge.circle": {
+   "name": "Circle",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 127
+  },
+  "ge.power": {
+   "name": "Power",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 128
+  },
+  "ge.inscribed": {
+   "name": "Inscribed",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 129
+  },
+  "ge.cyclic": {
+   "name": "Cyclic",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 130
+  },
+  "ge.3d": {
+   "name": "3d",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 132
+  },
+  "ge.3d2": {
+   "name": "3d2",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 134
+  },
+  "ge.coord": {
+   "name": "Coord",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 135
+  },
+  "ge.transform": {
+   "name": "Transform",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 136
+  },
+  "ge.trig": {
+   "name": "Trig",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 137
+  },
+  "ge.laws": {
+   "name": "Laws",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 138
+  },
+  "ge.stewart": {
+   "name": "Stewart",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 139
+  },
+  "ge.locus": {
+   "name": "Locus",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 141
+  },
+  "ge.proof": {
+   "name": "Proof",
+   "unit": "GE",
+   "w": 1,
+   "firstDay": 142
+  },
+  "ge.contest": {
+   "name": "Contest",
+   "unit": "GE",
+   "w": 0.5,
+   "firstDay": 143
+  },
+  "nt.div": {
+   "name": "Div",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 162
+  },
+  "nt.primes": {
+   "name": "Primes",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 163
+  },
+  "nt.divisors": {
+   "name": "Divisors",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 164
+  },
+  "nt.euclid": {
+   "name": "Euclid",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 165
+  },
+  "nt.base": {
+   "name": "Base",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 166
+  },
+  "nt.digits": {
+   "name": "Digits",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 167
+  },
+  "nt.mod": {
+   "name": "Mod",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 169
+  },
+  "nt.congr": {
+   "name": "Congr",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 170
+  },
+  "nt.fermat": {
+   "name": "Fermat",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 171
+  },
+  "nt.crt": {
+   "name": "Crt",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 172
+  },
+  "nt.dioph": {
+   "name": "Dioph",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 173
+  },
+  "nt.cycles": {
+   "name": "Cycles",
+   "unit": "NT",
+   "w": 1,
+   "firstDay": 174
+  },
+  "nt.contest": {
+   "name": "Contest",
+   "unit": "NT",
+   "w": 0.5,
+   "firstDay": 177
+  },
+  "ia.complex": {
+   "name": "Complex",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 183
+  },
+  "ia.quad": {
+   "name": "Quad",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 184
+  },
+  "ia.conic1": {
+   "name": "Conic1",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 185
+  },
+  "ia.conic2": {
+   "name": "Conic2",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 186
+  },
+  "ia.polydiv": {
+   "name": "Polydiv",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 187
+  },
+  "ia.roots1": {
+   "name": "Roots1",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 188
+  },
+  "ia.vieta": {
+   "name": "Vieta",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 190
+  },
+  "ia.roots2": {
+   "name": "Roots2",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 191
+  },
+  "ia.multifactor": {
+   "name": "Multifactor",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 192
+  },
+  "ia.series": {
+   "name": "Series",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 193
+  },
+  "ia.induct": {
+   "name": "Induct",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 194
+  },
+  "ia.amgm": {
+   "name": "Amgm",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 195
+  },
+  "ia.cs": {
+   "name": "Cs",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 197
+  },
+  "ia.log": {
+   "name": "Log",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 198
+  },
+  "ia.rad": {
+   "name": "Rad",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 199
+  },
+  "ia.fn": {
+   "name": "Fn",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 200
+  },
+  "ia.funceq": {
+   "name": "Funceq",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 201
+  },
+  "ia.strat": {
+   "name": "Strat",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 202
+  },
+  "ia.intpoly": {
+   "name": "Intpoly",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 204
+  },
+  "ia.nlsys": {
+   "name": "Nlsys",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 205
+  },
+  "ia.logcontest": {
+   "name": "Logcontest",
+   "unit": "IA",
+   "w": 0.5,
+   "firstDay": 206
+  },
+  "ia.floor": {
+   "name": "Floor",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 207
+  },
+  "ia.complex2": {
+   "name": "Complex2",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 208
+  },
+  "ia.telescope": {
+   "name": "Telescope",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 209
+  },
+  "ia.ineqday": {
+   "name": "Ineqday",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 211
+  },
+  "ia.polyday": {
+   "name": "Polyday",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 212
+  },
+  "ia.contest": {
+   "name": "Contest",
+   "unit": "IA",
+   "w": 0.5,
+   "firstDay": 215
+  },
+  "icp.dist": {
+   "name": "Dist",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 221
+  },
+  "icp.pie": {
+   "name": "Pie",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 222
+  },
+  "icp.recur": {
+   "name": "Recur",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 223
+  },
+  "icp.cond": {
+   "name": "Cond",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 225
+  },
+  "icp.ev": {
+   "name": "Ev",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 226
+  },
+  "icp.ident": {
+   "name": "Ident",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 227
+  },
+  "icp.gen": {
+   "name": "Gen",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 228
+  },
+  "icp.biject": {
+   "name": "Biject",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 229
+  },
+  "icp.induct": {
+   "name": "Induct",
+   "unit": "IA",
+   "w": 1,
+   "firstDay": 230
+  },
+  "icp.contest": {
+   "name": "Contest",
+   "unit": "IA",
+   "w": 0.5,
+   "firstDay": 232
+  },
+  "pc.func": {
+   "name": "Func",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 239
+  },
+  "pc.unit": {
+   "name": "Unit",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 240
+  },
+  "pc.graph": {
+   "name": "Graph",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 241
+  },
+  "pc.inv": {
+   "name": "Inv",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 242
+  },
+  "pc.ident1": {
+   "name": "Ident1",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 243
+  },
+  "pc.ident2": {
+   "name": "Ident2",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 244
+  },
+  "pc.trigeq": {
+   "name": "Trigeq",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 246
+  },
+  "pc.tri": {
+   "name": "Tri",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 247
+  },
+  "pc.param": {
+   "name": "Param",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 248
+  },
+  "pc.polar": {
+   "name": "Polar",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 249
+  },
+  "pc.explog": {
+   "name": "Explog",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 250
+  },
+  "pc.cpolar": {
+   "name": "Cpolar",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 251
+  },
+  "pc.rou": {
+   "name": "Rou",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 253
+  },
+  "pc.cgeo": {
+   "name": "Cgeo",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 254
+  },
+  "pc.vec": {
+   "name": "Vec",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 255
+  },
+  "pc.mat": {
+   "name": "Mat",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 256
+  },
+  "pc.vec3": {
+   "name": "Vec3",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 257
+  },
+  "pc.limit": {
+   "name": "Limit",
+   "unit": "PC",
+   "w": 1,
+   "firstDay": 258
+  },
+  "pc.trigcontest": {
+   "name": "Trigcontest",
+   "unit": "PC",
+   "w": 0.5,
+   "firstDay": 260
+  },
+  "pc.contest": {
+   "name": "Contest",
+   "unit": "PC",
+   "w": 0.5,
+   "firstDay": 264
+  },
+  "ca.lim": {
+   "name": "Lim",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 274
+  },
+  "ca.limalg": {
+   "name": "Limalg",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 275
+  },
+  "ca.squeeze": {
+   "name": "Squeeze",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 276
+  },
+  "ca.cont": {
+   "name": "Cont",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 277
+  },
+  "ca.liminf": {
+   "name": "Liminf",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 278
+  },
+  "ca.ivt": {
+   "name": "Ivt",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 279
+  },
+  "ca.deriv": {
+   "name": "Deriv",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 281
+  },
+  "ca.power": {
+   "name": "Power",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 282
+  },
+  "ca.basic": {
+   "name": "Basic",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 283
+  },
+  "ca.prodquot": {
+   "name": "Prodquot",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 284
+  },
+  "ca.trigderiv": {
+   "name": "Trigderiv",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 285
+  },
+  "ca.chain": {
+   "name": "Chain",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 286
+  },
+  "ca.implicit": {
+   "name": "Implicit",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 288
+  },
+  "ca.invderiv": {
+   "name": "Invderiv",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 289
+  },
+  "ca.higher": {
+   "name": "Higher",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 290
+  },
+  "ca.motion": {
+   "name": "Motion",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 292
+  },
+  "ca.related": {
+   "name": "Related",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 293
+  },
+  "ca.lhop": {
+   "name": "Lhop",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 295
+  },
+  "ca.mvt": {
+   "name": "Mvt",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 296
+  },
+  "ca.inc": {
+   "name": "Inc",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 297
+  },
+  "ca.concave": {
+   "name": "Concave",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 298
+  },
+  "ca.sketch": {
+   "name": "Sketch",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 299
+  },
+  "ca.opt": {
+   "name": "Opt",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 300
+  },
+  "ca.implicit2": {
+   "name": "Implicit2",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 302
+  },
+  "ca.riemann": {
+   "name": "Riemann",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 303
+  },
+  "ca.ftc": {
+   "name": "Ftc",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 304
+  },
+  "ca.antideriv": {
+   "name": "Antideriv",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 305
+  },
+  "ca.usub": {
+   "name": "Usub",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 306
+  },
+  "ca.intalg": {
+   "name": "Intalg",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 307
+  },
+  "ca.parts": {
+   "name": "Parts",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 309
+  },
+  "ca.partial": {
+   "name": "Partial",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 310
+  },
+  "ca.improper": {
+   "name": "Improper",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 311
+  },
+  "ca.inttech": {
+   "name": "Inttech",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 312
+  },
+  "ca.de": {
+   "name": "De",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 313
+  },
+  "ca.euler": {
+   "name": "Euler",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 314
+  },
+  "ca.separ": {
+   "name": "Separ",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 316
+  },
+  "ca.expmodel": {
+   "name": "Expmodel",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 317
+  },
+  "ca.logistic": {
+   "name": "Logistic",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 318
+  },
+  "ca.avg": {
+   "name": "Avg",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 319
+  },
+  "ca.areaint": {
+   "name": "Areaint",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 320
+  },
+  "ca.crossvol": {
+   "name": "Crossvol",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 321
+  },
+  "ca.revol": {
+   "name": "Revol",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 323
+  },
+  "ca.arclen": {
+   "name": "Arclen",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 324
+  },
+  "ca.paramd": {
+   "name": "Paramd",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 326
+  },
+  "ca.vecfn": {
+   "name": "Vecfn",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 327
+  },
+  "ca.vecmotion": {
+   "name": "Vecmotion",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 328
+  },
+  "ca.polard": {
+   "name": "Polard",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 330
+  },
+  "ca.polararea": {
+   "name": "Polararea",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 331
+  },
+  "ca.seq": {
+   "name": "Seq",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 332
+  },
+  "ca.inttest": {
+   "name": "Inttest",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 333
+  },
+  "ca.comp": {
+   "name": "Comp",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 334
+  },
+  "ca.alt": {
+   "name": "Alt",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 335
+  },
+  "ca.ratio": {
+   "name": "Ratio",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 337
+  },
+  "ca.taylor": {
+   "name": "Taylor",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 338
+  },
+  "ca.lagrange": {
+   "name": "Lagrange",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 339
+  },
+  "ca.radius": {
+   "name": "Radius",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 340
+  },
+  "ca.maclaurin": {
+   "name": "Maclaurin",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 341
+  },
+  "ca.powser": {
+   "name": "Powser",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 342
+  },
+  "ca.frq": {
+   "name": "Frq",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 344
+  },
+  "ca.mcq": {
+   "name": "Mcq",
+   "unit": "CA",
+   "w": 1,
+   "firstDay": 346
+  },
+  "fn.amc": {
+   "name": "Amc",
+   "unit": "FN",
+   "w": 0.5,
+   "firstDay": 352
+  },
+  "fn.aime": {
+   "name": "Aime",
+   "unit": "FN",
+   "w": 0.5,
+   "firstDay": 354
+  },
+  "fn.rebuild": {
+   "name": "Rebuild",
+   "unit": "FN",
+   "w": 0.5,
+   "firstDay": 356
+  },
+  "fn.review": {
+   "name": "Review",
+   "unit": "FN",
+   "w": 0.5,
+   "firstDay": 361
+  },
+  "fn.final": {
+   "name": "Final",
+   "unit": "FN",
+   "w": 0.5,
+   "firstDay": 365
+  }
+ },
+ "sessions": [
+  {
+   "id": "d001",
+   "day": 1,
+   "type": "lesson",
+   "title": "The rules of arithmetic",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.props"
+   ],
+   "book": "AoPS Prealgebra 1.1–1.3",
+   "pack": "m01"
+  },
+  {
+   "id": "d002",
+   "day": 2,
+   "type": "lesson",
+   "title": "Negatives, subtraction, reciprocals, division",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.signed"
+   ],
+   "book": "AoPS Prealgebra 1.4–1.8",
+   "pack": "m01"
+  },
+  {
+   "id": "d003",
+   "day": 3,
+   "type": "lesson",
+   "title": "Exponents and their laws",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.exp"
+   ],
+   "book": "AoPS Prealgebra 2.1–2.5",
+   "pack": "m01"
+  },
+  {
+   "id": "d004",
+   "day": 4,
+   "type": "lesson",
+   "title": "Multiples, divisibility, primes",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.divis",
+    "pa.primes"
+   ],
+   "book": "AoPS Prealgebra 3.1–3.3",
+   "pack": "m01"
+  },
+  {
+   "id": "d005",
+   "day": 5,
+   "type": "lesson",
+   "title": "Prime factorization, GCD, LCM, divisors",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.factor",
+    "pa.gcdlcm"
+   ],
+   "book": "AoPS Prealgebra 3.4–3.8",
+   "pack": "m01"
+  },
+  {
+   "id": "d006",
+   "day": 6,
+   "type": "lesson",
+   "title": "Fractions I: what they are, × and ÷",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.frac.md"
+   ],
+   "book": "AoPS Prealgebra 4.1–4.5",
+   "pack": "m01"
+  },
+  {
+   "id": "d007",
+   "day": 7,
+   "type": "trial",
+   "title": "Weekly Trial 1",
+   "unit": "PA",
+   "skills": [],
+   "pack": "m01"
+  },
+  {
+   "id": "d008",
+   "day": 8,
+   "type": "lesson",
+   "title": "Fractions II: compare, add, subtract, mixed numbers",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.frac.as"
+   ],
+   "book": "AoPS Prealgebra 4.6–4.9",
+   "pack": "m01"
+  },
+  {
+   "id": "d009",
+   "day": 9,
+   "type": "lesson",
+   "title": "Expressions and like terms",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.expr"
+   ],
+   "book": "AoPS Prealgebra 5.1",
+   "pack": "m01"
+  },
+  {
+   "id": "d010",
+   "day": 10,
+   "type": "lesson",
+   "title": "Solving linear equations",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.lineq"
+   ],
+   "book": "AoPS Prealgebra 5.2–5.3",
+   "pack": "m01"
+  },
+  {
+   "id": "d011",
+   "day": 11,
+   "type": "lesson",
+   "title": "Word problems and inequalities",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.wordeq",
+    "pa.ineq"
+   ],
+   "book": "AoPS Prealgebra 5.4–5.6",
+   "pack": "m01"
+  },
+  {
+   "id": "d012",
+   "day": 12,
+   "type": "lesson",
+   "title": "Decimals and repeating decimals",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.dec"
+   ],
+   "book": "AoPS Prealgebra 6.1–6.5",
+   "pack": "m01"
+  },
+  {
+   "id": "d013",
+   "day": 13,
+   "type": "lesson",
+   "title": "Ratios, proportions, conversions",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.ratio"
+   ],
+   "book": "AoPS Prealgebra 7.1–7.4",
+   "pack": "m01"
+  },
+  {
+   "id": "d014",
+   "day": 14,
+   "type": "trial",
+   "title": "Weekly Trial 2",
+   "unit": "PA",
+   "skills": [],
+   "pack": "m01"
+  },
+  {
+   "id": "d015",
+   "day": 15,
+   "type": "lesson",
+   "title": "Rates and speed",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.rates"
+   ],
+   "book": "AoPS Prealgebra 7.5–7.7",
+   "pack": "m01"
+  },
+  {
+   "id": "d016",
+   "day": 16,
+   "type": "lesson",
+   "title": "Percents and percent change",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.pct"
+   ],
+   "book": "AoPS Prealgebra 8.1–8.4",
+   "pack": "m01"
+  },
+  {
+   "id": "d017",
+   "day": 17,
+   "type": "lesson",
+   "title": "Square roots",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.sqrt"
+   ],
+   "book": "AoPS Prealgebra 9.1–9.4",
+   "pack": "m01"
+  },
+  {
+   "id": "d018",
+   "day": 18,
+   "type": "lesson",
+   "title": "Angles, parallel lines, polygons",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.angles"
+   ],
+   "book": "AoPS Prealgebra 10.1–10.4",
+   "pack": "m01"
+  },
+  {
+   "id": "d019",
+   "day": 19,
+   "type": "lesson",
+   "title": "Perimeter, area, circles",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.area",
+    "pa.circle"
+   ],
+   "book": "AoPS Prealgebra 11.1–11.4",
+   "pack": "m01"
+  },
+  {
+   "id": "d020",
+   "day": 20,
+   "type": "lesson",
+   "title": "Right triangles and quadrilaterals",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.pyth"
+   ],
+   "book": "AoPS Prealgebra 12.1–12.4",
+   "pack": "m01"
+  },
+  {
+   "id": "d021",
+   "day": 21,
+   "type": "trial",
+   "title": "Weekly Trial 3",
+   "unit": "PA",
+   "skills": [],
+   "pack": "m01"
+  },
+  {
+   "id": "d022",
+   "day": 22,
+   "type": "lesson",
+   "title": "Data and statistics",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.stats"
+   ],
+   "book": "AoPS Prealgebra 13.1–13.4",
+   "pack": "m01"
+  },
+  {
+   "id": "d023",
+   "day": 23,
+   "type": "lesson",
+   "title": "Counting I: lists and the multiplication principle",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.count1"
+   ],
+   "book": "AoPS Prealgebra 14.1–14.2",
+   "pack": "m01"
+  },
+  {
+   "id": "d024",
+   "day": 24,
+   "type": "lesson",
+   "title": "Counting II: casework, pairs, probability",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.count2",
+    "pa.prob"
+   ],
+   "book": "AoPS Prealgebra 14.3–14.6",
+   "pack": "m01"
+  },
+  {
+   "id": "d025",
+   "day": 25,
+   "type": "lesson",
+   "title": "Problem-solving strategies",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.strat"
+   ],
+   "book": "AoPS Prealgebra 15.1–15.5",
+   "pack": "m01"
+  },
+  {
+   "id": "d026",
+   "day": 26,
+   "type": "lesson",
+   "title": "Pre-Algebra synthesis: mixed contest problems",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.strat"
+   ],
+   "book": "AoPS Prealgebra Ch. 15 Challenge Problems",
+   "pack": "m01"
+  },
+  {
+   "id": "d027",
+   "day": 27,
+   "type": "mastery",
+   "title": "Pre-Algebra mastery exam",
+   "unit": "PA",
+   "unitName": "Pre-Algebra",
+   "skills": [
+    "pa.frac.as",
+    "pa.lineq",
+    "pa.exp",
+    "pa.gcdlcm",
+    "pa.pct",
+    "pa.sqrt",
+    "pa.area",
+    "pa.pyth",
+    "pa.count2"
+   ],
+   "book": null,
+   "pack": "m01"
+  },
+  {
+   "id": "d028",
+   "day": 28,
+   "type": "benchmark",
+   "title": "Benchmark 1",
+   "unit": "PA",
+   "skills": [],
+   "pack": "m01"
+  },
+  {
+   "id": "d029",
+   "day": 29,
+   "type": "lesson",
+   "title": "Variables, expressions, and the distributive property, revisited",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.expr"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d030",
+   "day": 30,
+   "type": "lesson",
+   "title": "Linear equations with fractions and decimals",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.lin"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d031",
+   "day": 31,
+   "type": "lesson",
+   "title": "Literal equations and formulas",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.literal"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d032",
+   "day": 32,
+   "type": "lesson",
+   "title": "Absolute value equations",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.abs"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d033",
+   "day": 33,
+   "type": "lesson",
+   "title": "The coordinate plane and graphing lines",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.graph"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d034",
+   "day": 34,
+   "type": "lesson",
+   "title": "Slope and its meanings",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.slope"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d035",
+   "day": 35,
+   "type": "trial",
+   "title": "Weekly Trial 5",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m02"
+  },
+  {
+   "id": "d036",
+   "day": 36,
+   "type": "lesson",
+   "title": "Equations of lines: slope-intercept, point-slope, standard",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.lineeq"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d037",
+   "day": 37,
+   "type": "lesson",
+   "title": "Parallel and perpendicular lines; distance and midpoint",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.perp",
+    "al.dist"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d038",
+   "day": 38,
+   "type": "lesson",
+   "title": "Systems of linear equations: substitution",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.sys"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d039",
+   "day": 39,
+   "type": "lesson",
+   "title": "Systems: elimination and three variables",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.sys"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 1",
+   "pack": "m02"
+  },
+  {
+   "id": "d040",
+   "day": 40,
+   "type": "lesson",
+   "title": "Word problems with systems",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.syswp"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d041",
+   "day": 41,
+   "type": "lesson",
+   "title": "Linear inequalities and compound inequalities",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.ineq"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d042",
+   "day": 42,
+   "type": "trial",
+   "title": "Weekly Trial 6",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m02"
+  },
+  {
+   "id": "d043",
+   "day": 43,
+   "type": "lesson",
+   "title": "Absolute value inequalities; graphing inequalities",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.ineq2"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d044",
+   "day": 44,
+   "type": "lesson",
+   "title": "Ratios, proportions, and variation",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.var"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d045",
+   "day": 45,
+   "type": "lesson",
+   "title": "Functions: notation, domain, range",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.func"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 2",
+   "pack": "m02"
+  },
+  {
+   "id": "d046",
+   "day": 46,
+   "type": "lesson",
+   "title": "Function graphs, composition, and inverses",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.func2"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 2",
+   "pack": "m02"
+  },
+  {
+   "id": "d047",
+   "day": 47,
+   "type": "mastery",
+   "title": "Algebra checkpoint: linear mastery exam",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.lin",
+    "al.lineeq",
+    "al.sys",
+    "al.ineq",
+    "al.func"
+   ],
+   "book": null,
+   "pack": "m02"
+  },
+  {
+   "id": "d048",
+   "day": 48,
+   "type": "lesson",
+   "title": "Exponent rules with variables; scientific notation",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.exp"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d049",
+   "day": 49,
+   "type": "trial",
+   "title": "Weekly Trial 7",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m02"
+  },
+  {
+   "id": "d050",
+   "day": 50,
+   "type": "lesson",
+   "title": "Polynomials: adding, subtracting, multiplying",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.poly"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d051",
+   "day": 51,
+   "type": "lesson",
+   "title": "Special products and the binomial square",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.special"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d052",
+   "day": 52,
+   "type": "lesson",
+   "title": "Factoring: GCF and grouping",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.factor1"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d053",
+   "day": 53,
+   "type": "lesson",
+   "title": "Factoring quadratics",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.factor2"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d054",
+   "day": 54,
+   "type": "lesson",
+   "title": "Difference of squares, sum and difference of cubes",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.factor3"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d055",
+   "day": 55,
+   "type": "lesson",
+   "title": "Solving quadratics by factoring",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.quadsolve"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m02"
+  },
+  {
+   "id": "d056",
+   "day": 56,
+   "type": "benchmark",
+   "title": "Benchmark 2",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m02"
+  },
+  {
+   "id": "d057",
+   "day": 57,
+   "type": "lesson",
+   "title": "Completing the square",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.ctsq"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 4",
+   "pack": "m03"
+  },
+  {
+   "id": "d058",
+   "day": 58,
+   "type": "lesson",
+   "title": "The quadratic formula and the discriminant",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.qf"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 4",
+   "pack": "m03"
+  },
+  {
+   "id": "d059",
+   "day": 59,
+   "type": "lesson",
+   "title": "Vieta's formulas for quadratics",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.vieta"
+   ],
+   "book": "AoPS Intermediate Algebra 4.2",
+   "pack": "m03"
+  },
+  {
+   "id": "d060",
+   "day": 60,
+   "type": "lesson",
+   "title": "Graphing parabolas; vertex form",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.parab"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 4",
+   "pack": "m03"
+  },
+  {
+   "id": "d061",
+   "day": 61,
+   "type": "lesson",
+   "title": "Quadratic word problems and optimization",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.quadwp"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m03"
+  },
+  {
+   "id": "d062",
+   "day": 62,
+   "type": "lesson",
+   "title": "Quadratic inequalities",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.quadineq"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 4",
+   "pack": "m03"
+  },
+  {
+   "id": "d063",
+   "day": 63,
+   "type": "trial",
+   "title": "Weekly Trial 9",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m03"
+  },
+  {
+   "id": "d064",
+   "day": 64,
+   "type": "lesson",
+   "title": "Radicals: simplifying, rationalizing",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.rad"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 14",
+   "pack": "m03"
+  },
+  {
+   "id": "d065",
+   "day": 65,
+   "type": "lesson",
+   "title": "Radical equations",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.radeq"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 14",
+   "pack": "m03"
+  },
+  {
+   "id": "d066",
+   "day": 66,
+   "type": "lesson",
+   "title": "Rational exponents",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.ratexp"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m03"
+  },
+  {
+   "id": "d067",
+   "day": 67,
+   "type": "lesson",
+   "title": "Rational expressions: simplify, multiply, divide",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.ratexpr"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m03"
+  },
+  {
+   "id": "d068",
+   "day": 68,
+   "type": "lesson",
+   "title": "Rational expressions: add, subtract, complex fractions",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.ratexpr2"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m03"
+  },
+  {
+   "id": "d069",
+   "day": 69,
+   "type": "lesson",
+   "title": "Rational equations and work problems",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.rateq"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m03"
+  },
+  {
+   "id": "d070",
+   "day": 70,
+   "type": "trial",
+   "title": "Weekly Trial 10",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m03"
+  },
+  {
+   "id": "d071",
+   "day": 71,
+   "type": "lesson",
+   "title": "Word problems: distance, mixture, and work",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.wp"
+   ],
+   "book": "OpenStax Elementary/Intermediate Algebra 2e",
+   "pack": "m03"
+  },
+  {
+   "id": "d072",
+   "day": 72,
+   "type": "lesson",
+   "title": "Transformations of graphs",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.transform"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 2",
+   "pack": "m03"
+  },
+  {
+   "id": "d073",
+   "day": 73,
+   "type": "lesson",
+   "title": "Nonlinear systems",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.nlsys"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 1",
+   "pack": "m03"
+  },
+  {
+   "id": "d074",
+   "day": 74,
+   "type": "lesson",
+   "title": "Exponential equations",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.expeq"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 13",
+   "pack": "m03"
+  },
+  {
+   "id": "d075",
+   "day": 75,
+   "type": "lesson",
+   "title": "Polynomial division, a first look",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.polydiv"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 6",
+   "pack": "m03"
+  },
+  {
+   "id": "d076",
+   "day": 76,
+   "type": "lesson",
+   "title": "Algebra review: quadratics",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.qf",
+    "al.vieta",
+    "al.parab"
+   ],
+   "book": null,
+   "pack": "m03"
+  },
+  {
+   "id": "d077",
+   "day": 77,
+   "type": "trial",
+   "title": "Weekly Trial 11",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m03"
+  },
+  {
+   "id": "d078",
+   "day": 78,
+   "type": "lesson",
+   "title": "Algebra hard problems day",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.contest"
+   ],
+   "book": null,
+   "pack": "m03"
+  },
+  {
+   "id": "d079",
+   "day": 79,
+   "type": "lesson",
+   "title": "Arithmetic sequences and series",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.arith"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 10",
+   "pack": "m03"
+  },
+  {
+   "id": "d080",
+   "day": 80,
+   "type": "lesson",
+   "title": "Geometric sequences and series",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.geo"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 10",
+   "pack": "m03"
+  },
+  {
+   "id": "d081",
+   "day": 81,
+   "type": "lesson",
+   "title": "Sigma notation and telescoping",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.sigma"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 10",
+   "pack": "m03"
+  },
+  {
+   "id": "d082",
+   "day": 82,
+   "type": "lesson",
+   "title": "Exponential functions and growth",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.expfn"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 13",
+   "pack": "m03"
+  },
+  {
+   "id": "d083",
+   "day": 83,
+   "type": "lesson",
+   "title": "Introduction to logarithms",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.log"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 13",
+   "pack": "m03"
+  },
+  {
+   "id": "d084",
+   "day": 84,
+   "type": "benchmark",
+   "title": "Benchmark 3",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m03"
+  },
+  {
+   "id": "d085",
+   "day": 85,
+   "type": "lesson",
+   "title": "Special functions: floor, absolute value, piecewise",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.special_fn"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 16",
+   "pack": "m04"
+  },
+  {
+   "id": "d086",
+   "day": 86,
+   "type": "lesson",
+   "title": "Clever algebraic manipulations",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.manip"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 11",
+   "pack": "m04"
+  },
+  {
+   "id": "d087",
+   "day": 87,
+   "type": "lesson",
+   "title": "Algebra contest problem set I",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.contest"
+   ],
+   "book": "AoPS Vol. 2 Ch. 13",
+   "pack": "m04"
+  },
+  {
+   "id": "d088",
+   "day": 88,
+   "type": "lesson",
+   "title": "Algebra contest problem set II",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.contest"
+   ],
+   "book": "AoPS Vol. 2 Ch. 13",
+   "pack": "m04"
+  },
+  {
+   "id": "d089",
+   "day": 89,
+   "type": "lesson",
+   "title": "Algebra synthesis: mixed review",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.contest"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d090",
+   "day": 90,
+   "type": "mastery",
+   "title": "Algebra mastery exam",
+   "unit": "AL",
+   "unitName": "Algebra",
+   "skills": [
+    "al.exp",
+    "al.factor2",
+    "al.qf",
+    "al.rad",
+    "al.ratexpr2",
+    "al.arith",
+    "al.geo",
+    "al.log"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d091",
+   "day": 91,
+   "type": "trial",
+   "title": "Weekly Trial 13",
+   "unit": "AL",
+   "skills": [],
+   "pack": "m04"
+  },
+  {
+   "id": "d092",
+   "day": 92,
+   "type": "lesson",
+   "title": "Counting is arithmetic: lists, complements, inclusion",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.basic"
+   ],
+   "book": "AoPS Intro C&P Solutions Ch. 1–2 (textbook missing)",
+   "pack": "m04"
+  },
+  {
+   "id": "d093",
+   "day": 93,
+   "type": "lesson",
+   "title": "Permutations",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.perm"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d094",
+   "day": 94,
+   "type": "lesson",
+   "title": "Combinations and overcounting",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.comb"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d095",
+   "day": 95,
+   "type": "lesson",
+   "title": "Casework and complementary counting",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.case"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d096",
+   "day": 96,
+   "type": "lesson",
+   "title": "Counting with restrictions; stars and bars",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.stars"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 7",
+   "pack": "m04"
+  },
+  {
+   "id": "d097",
+   "day": 97,
+   "type": "lesson",
+   "title": "Probability: equally likely outcomes",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.prob"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d098",
+   "day": 98,
+   "type": "trial",
+   "title": "Weekly Trial 14",
+   "unit": "CP",
+   "skills": [],
+   "pack": "m04"
+  },
+  {
+   "id": "d099",
+   "day": 99,
+   "type": "lesson",
+   "title": "Probability with combinations; geometric probability",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.prob2"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d100",
+   "day": 100,
+   "type": "lesson",
+   "title": "Expected value",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.ev"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 1",
+   "pack": "m04"
+  },
+  {
+   "id": "d101",
+   "day": 101,
+   "type": "lesson",
+   "title": "Pascal's triangle and the binomial theorem",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.pascal"
+   ],
+   "book": "AoPS Intermediate Algebra 11.4",
+   "pack": "m04"
+  },
+  {
+   "id": "d102",
+   "day": 102,
+   "type": "lesson",
+   "title": "Inclusion-exclusion",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.pie"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 3",
+   "pack": "m04"
+  },
+  {
+   "id": "d103",
+   "day": 103,
+   "type": "lesson",
+   "title": "Pigeonhole principle",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.pigeon"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 5",
+   "pack": "m04"
+  },
+  {
+   "id": "d104",
+   "day": 104,
+   "type": "lesson",
+   "title": "Recursion and Fibonacci-style counting",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.recur"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 9",
+   "pack": "m04"
+  },
+  {
+   "id": "d105",
+   "day": 105,
+   "type": "trial",
+   "title": "Weekly Trial 15",
+   "unit": "CP",
+   "skills": [],
+   "pack": "m04"
+  },
+  {
+   "id": "d106",
+   "day": 106,
+   "type": "lesson",
+   "title": "Circular arrangements and symmetry",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.circ"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d107",
+   "day": 107,
+   "type": "lesson",
+   "title": "Probability with casework and complements",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.prob3"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d108",
+   "day": 108,
+   "type": "lesson",
+   "title": "C&P hard problems day",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.contest"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d109",
+   "day": 109,
+   "type": "lesson",
+   "title": "C&P contest problem set",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.contest"
+   ],
+   "book": "AoPS Vol. 2 Ch. 15",
+   "pack": "m04"
+  },
+  {
+   "id": "d110",
+   "day": 110,
+   "type": "lesson",
+   "title": "C&P synthesis",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.contest"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d111",
+   "day": 111,
+   "type": "mastery",
+   "title": "C&P mastery exam",
+   "unit": "CP",
+   "unitName": "Counting & Probability",
+   "skills": [
+    "cp.perm",
+    "cp.comb",
+    "cp.case",
+    "cp.prob2",
+    "cp.ev",
+    "cp.pie"
+   ],
+   "book": null,
+   "pack": "m04"
+  },
+  {
+   "id": "d112",
+   "day": 112,
+   "type": "benchmark",
+   "title": "Benchmark 4",
+   "unit": "CP",
+   "skills": [],
+   "pack": "m04"
+  },
+  {
+   "id": "d113",
+   "day": 113,
+   "type": "lesson",
+   "title": "Points, lines, angles; angle chasing",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.angle"
+   ],
+   "book": "AoPS Intro Geometry (missing)",
+   "pack": "m05"
+  },
+  {
+   "id": "d114",
+   "day": 114,
+   "type": "lesson",
+   "title": "Triangles: angle sums, exterior angles, classification",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.tri"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d115",
+   "day": 115,
+   "type": "lesson",
+   "title": "Congruent triangles",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.cong"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d116",
+   "day": 116,
+   "type": "lesson",
+   "title": "Perimeter and area, revisited; Heron's formula",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.area"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d117",
+   "day": 117,
+   "type": "lesson",
+   "title": "Similar triangles",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.sim"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d118",
+   "day": 118,
+   "type": "lesson",
+   "title": "Similar triangles in problems; area ratios",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.sim2"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d119",
+   "day": 119,
+   "type": "trial",
+   "title": "Weekly Trial 17",
+   "unit": "GE",
+   "skills": [],
+   "pack": "m05"
+  },
+  {
+   "id": "d120",
+   "day": 120,
+   "type": "lesson",
+   "title": "Right triangles and the Pythagorean theorem, deeper",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.right"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d121",
+   "day": 121,
+   "type": "lesson",
+   "title": "Special right triangles; triangle inequality",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.special"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d122",
+   "day": 122,
+   "type": "lesson",
+   "title": "Special segments: medians, altitudes, angle bisectors",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.cevian"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d123",
+   "day": 123,
+   "type": "lesson",
+   "title": "Angle bisector theorem; centroid",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.bisect"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d124",
+   "day": 124,
+   "type": "lesson",
+   "title": "Quadrilaterals and polygons",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.quad"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d125",
+   "day": 125,
+   "type": "lesson",
+   "title": "Regular polygons; areas of polygons",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.poly"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d126",
+   "day": 126,
+   "type": "trial",
+   "title": "Weekly Trial 18",
+   "unit": "GE",
+   "skills": [],
+   "pack": "m05"
+  },
+  {
+   "id": "d127",
+   "day": 127,
+   "type": "lesson",
+   "title": "Circles: arcs, angles, chords",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.circle"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d128",
+   "day": 128,
+   "type": "lesson",
+   "title": "Tangents and power of a point",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.power"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d129",
+   "day": 129,
+   "type": "lesson",
+   "title": "Inscribed and circumscribed figures",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.inscribed"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d130",
+   "day": 130,
+   "type": "lesson",
+   "title": "Cyclic quadrilaterals; Ptolemy",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.cyclic"
+   ],
+   "book": "AoPS Vol. 2 Ch. 4",
+   "pack": "m05"
+  },
+  {
+   "id": "d131",
+   "day": 131,
+   "type": "mastery",
+   "title": "Geometry checkpoint exam",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.angle",
+    "ge.sim",
+    "ge.right",
+    "ge.circle"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d132",
+   "day": 132,
+   "type": "lesson",
+   "title": "3D geometry: prisms, cylinders, pyramids, cones",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.3d"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d133",
+   "day": 133,
+   "type": "trial",
+   "title": "Weekly Trial 19",
+   "unit": "GE",
+   "skills": [],
+   "pack": "m05"
+  },
+  {
+   "id": "d134",
+   "day": 134,
+   "type": "lesson",
+   "title": "Spheres; volume and surface area problems",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.3d2"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d135",
+   "day": 135,
+   "type": "lesson",
+   "title": "Coordinate geometry: distance, slope, shoelace",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.coord"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d136",
+   "day": 136,
+   "type": "lesson",
+   "title": "Coordinate proofs; reflections and transformations",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.transform"
+   ],
+   "book": null,
+   "pack": "m05"
+  },
+  {
+   "id": "d137",
+   "day": 137,
+   "type": "lesson",
+   "title": "Trigonometry for right triangles",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.trig"
+   ],
+   "book": "AoPS Precalculus 4.1",
+   "pack": "m05"
+  },
+  {
+   "id": "d138",
+   "day": 138,
+   "type": "lesson",
+   "title": "Law of Sines and Law of Cosines",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.laws"
+   ],
+   "book": "AoPS Precalculus 4.2–4.3",
+   "pack": "m05"
+  },
+  {
+   "id": "d139",
+   "day": 139,
+   "type": "lesson",
+   "title": "Areas with trig; Stewart's theorem",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.stewart"
+   ],
+   "book": "AoPS Vol. 2 Ch. 2",
+   "pack": "m05"
+  },
+  {
+   "id": "d140",
+   "day": 140,
+   "type": "benchmark",
+   "title": "Benchmark 5",
+   "unit": "GE",
+   "skills": [],
+   "pack": "m05"
+  },
+  {
+   "id": "d141",
+   "day": 141,
+   "type": "lesson",
+   "title": "Geometric constructions and loci",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.locus"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d142",
+   "day": 142,
+   "type": "lesson",
+   "title": "Geometry proof writing",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.proof"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d143",
+   "day": 143,
+   "type": "lesson",
+   "title": "Geometry contest set I (AMC 10/12 style)",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d144",
+   "day": 144,
+   "type": "lesson",
+   "title": "Geometry contest set II (AIME style)",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d145",
+   "day": 145,
+   "type": "lesson",
+   "title": "Geometry contest set III",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d146",
+   "day": 146,
+   "type": "lesson",
+   "title": "Geometry synthesis",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d147",
+   "day": 147,
+   "type": "trial",
+   "title": "Weekly Trial 21",
+   "unit": "GE",
+   "skills": [],
+   "pack": "m06"
+  },
+  {
+   "id": "d148",
+   "day": 148,
+   "type": "lesson",
+   "title": "Geometry review: circles and similarity",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.circle",
+    "ge.sim2"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d149",
+   "day": 149,
+   "type": "lesson",
+   "title": "Geometry review: area methods",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.area",
+    "ge.stewart"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d150",
+   "day": 150,
+   "type": "lesson",
+   "title": "Geometry review: 3D and coordinates",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.3d2",
+    "ge.coord"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d151",
+   "day": 151,
+   "type": "lesson",
+   "title": "Geometry review: trig in triangles",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.laws"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d152",
+   "day": 152,
+   "type": "lesson",
+   "title": "Geometry review: mixed AIME-style",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d153",
+   "day": 153,
+   "type": "lesson",
+   "title": "Geometry hard problems day",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d154",
+   "day": 154,
+   "type": "trial",
+   "title": "Weekly Trial 22",
+   "unit": "GE",
+   "skills": [],
+   "pack": "m06"
+  },
+  {
+   "id": "d155",
+   "day": 155,
+   "type": "lesson",
+   "title": "Geometry hard problems day II",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d156",
+   "day": 156,
+   "type": "lesson",
+   "title": "Geometry hard problems day III",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d157",
+   "day": 157,
+   "type": "lesson",
+   "title": "Geometry hard problems day IV",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d158",
+   "day": 158,
+   "type": "lesson",
+   "title": "Geometry hard problems day V",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d159",
+   "day": 159,
+   "type": "lesson",
+   "title": "Geometry synthesis II",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.contest"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d160",
+   "day": 160,
+   "type": "mastery",
+   "title": "Geometry mastery exam",
+   "unit": "GE",
+   "unitName": "Geometry",
+   "skills": [
+    "ge.cong",
+    "ge.sim2",
+    "ge.power",
+    "ge.3d2",
+    "ge.coord",
+    "ge.laws",
+    "ge.cyclic"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d161",
+   "day": 161,
+   "type": "trial",
+   "title": "Weekly Trial 23",
+   "unit": "GE",
+   "skills": [],
+   "pack": "m06"
+  },
+  {
+   "id": "d162",
+   "day": 162,
+   "type": "lesson",
+   "title": "Divisibility and the division algorithm",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.div"
+   ],
+   "book": "AoPS Intro Number Theory (missing)",
+   "pack": "m06"
+  },
+  {
+   "id": "d163",
+   "day": 163,
+   "type": "lesson",
+   "title": "Primes and the fundamental theorem of arithmetic",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.primes"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d164",
+   "day": 164,
+   "type": "lesson",
+   "title": "Divisor counting and divisor sums",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.divisors"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d165",
+   "day": 165,
+   "type": "lesson",
+   "title": "GCD, LCM, and the Euclidean algorithm",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.euclid"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d166",
+   "day": 166,
+   "type": "lesson",
+   "title": "Number bases",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.base"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d167",
+   "day": 167,
+   "type": "lesson",
+   "title": "Units digits and last-two-digit problems",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.digits"
+   ],
+   "book": null,
+   "pack": "m06"
+  },
+  {
+   "id": "d168",
+   "day": 168,
+   "type": "benchmark",
+   "title": "Benchmark 6",
+   "unit": "NT",
+   "skills": [],
+   "pack": "m06"
+  },
+  {
+   "id": "d169",
+   "day": 169,
+   "type": "lesson",
+   "title": "Modular arithmetic",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.mod"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d170",
+   "day": 170,
+   "type": "lesson",
+   "title": "Linear congruences and inverses",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.congr"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d171",
+   "day": 171,
+   "type": "lesson",
+   "title": "Fermat's little theorem and Euler's theorem",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.fermat"
+   ],
+   "book": "AoPS Vol. 2 (number theory sections)",
+   "pack": "m07"
+  },
+  {
+   "id": "d172",
+   "day": 172,
+   "type": "lesson",
+   "title": "Chinese remainder theorem",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.crt"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d173",
+   "day": 173,
+   "type": "lesson",
+   "title": "Diophantine equations",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.dioph"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d174",
+   "day": 174,
+   "type": "lesson",
+   "title": "Powers modulo n: cycles and patterns",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.cycles"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d175",
+   "day": 175,
+   "type": "trial",
+   "title": "Weekly Trial 25",
+   "unit": "NT",
+   "skills": [],
+   "pack": "m07"
+  },
+  {
+   "id": "d176",
+   "day": 176,
+   "type": "lesson",
+   "title": "Number theory review: mod and digits",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.mod",
+    "nt.digits"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d177",
+   "day": 177,
+   "type": "lesson",
+   "title": "Number theory contest set I",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.contest"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d178",
+   "day": 178,
+   "type": "lesson",
+   "title": "Number theory contest set II",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.contest"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d179",
+   "day": 179,
+   "type": "lesson",
+   "title": "Number theory synthesis",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.contest"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d180",
+   "day": 180,
+   "type": "lesson",
+   "title": "Number theory hard problems day",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.contest"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d181",
+   "day": 181,
+   "type": "mastery",
+   "title": "Number theory mastery exam",
+   "unit": "NT",
+   "unitName": "Number Theory",
+   "skills": [
+    "nt.divisors",
+    "nt.euclid",
+    "nt.base",
+    "nt.mod",
+    "nt.congr",
+    "nt.crt"
+   ],
+   "book": null,
+   "pack": "m07"
+  },
+  {
+   "id": "d182",
+   "day": 182,
+   "type": "trial",
+   "title": "Weekly Trial 26",
+   "unit": "NT",
+   "skills": [],
+   "pack": "m07"
+  },
+  {
+   "id": "d183",
+   "day": 183,
+   "type": "lesson",
+   "title": "Complex numbers",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.complex"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 3",
+   "pack": "m07"
+  },
+  {
+   "id": "d184",
+   "day": 184,
+   "type": "lesson",
+   "title": "Quadratics deeper: discriminant, symmetric functions",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.quad"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 4",
+   "pack": "m07"
+  },
+  {
+   "id": "d185",
+   "day": 185,
+   "type": "lesson",
+   "title": "Conics I: parabolas and circles",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.conic1"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 5",
+   "pack": "m07"
+  },
+  {
+   "id": "d186",
+   "day": 186,
+   "type": "lesson",
+   "title": "Conics II: ellipses and hyperbolas",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.conic2"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 5",
+   "pack": "m07"
+  },
+  {
+   "id": "d187",
+   "day": 187,
+   "type": "lesson",
+   "title": "Polynomial division; remainder and factor theorems",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.polydiv"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 6",
+   "pack": "m07"
+  },
+  {
+   "id": "d188",
+   "day": 188,
+   "type": "lesson",
+   "title": "Polynomial roots: rational root theorem, graphs",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.roots1"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 7",
+   "pack": "m07"
+  },
+  {
+   "id": "d189",
+   "day": 189,
+   "type": "trial",
+   "title": "Weekly Trial 27",
+   "unit": "IA",
+   "skills": [],
+   "pack": "m07"
+  },
+  {
+   "id": "d190",
+   "day": 190,
+   "type": "lesson",
+   "title": "Vieta's formulas for higher degree",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.vieta"
+   ],
+   "book": "AoPS Intermediate Algebra 8.3",
+   "pack": "m07"
+  },
+  {
+   "id": "d191",
+   "day": 191,
+   "type": "lesson",
+   "title": "Polynomial roots: Newton sums, transformations",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.roots2"
+   ],
+   "book": "AoPS Vol. 2 Ch. 6",
+   "pack": "m07"
+  },
+  {
+   "id": "d192",
+   "day": 192,
+   "type": "lesson",
+   "title": "Factoring multivariable polynomials",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.multifactor"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 9",
+   "pack": "m07"
+  },
+  {
+   "id": "d193",
+   "day": 193,
+   "type": "lesson",
+   "title": "Sequences and series deeper; telescoping",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.series"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 10, 17",
+   "pack": "m07"
+  },
+  {
+   "id": "d194",
+   "day": 194,
+   "type": "lesson",
+   "title": "Identities and induction",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.induct"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 11",
+   "pack": "m07"
+  },
+  {
+   "id": "d195",
+   "day": 195,
+   "type": "lesson",
+   "title": "Inequalities: trivial inequality, AM-GM",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.amgm"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 12",
+   "pack": "m07"
+  },
+  {
+   "id": "d196",
+   "day": 196,
+   "type": "benchmark",
+   "title": "Benchmark 7",
+   "unit": "IA",
+   "skills": [],
+   "pack": "m07"
+  },
+  {
+   "id": "d197",
+   "day": 197,
+   "type": "lesson",
+   "title": "Inequalities: Cauchy-Schwarz and friends",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.cs"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 18",
+   "pack": "m08"
+  },
+  {
+   "id": "d198",
+   "day": 198,
+   "type": "lesson",
+   "title": "Exponents and logarithms deeper",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.log"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 13",
+   "pack": "m08"
+  },
+  {
+   "id": "d199",
+   "day": 199,
+   "type": "lesson",
+   "title": "Radicals and nested radicals",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.rad"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 14",
+   "pack": "m08"
+  },
+  {
+   "id": "d200",
+   "day": 200,
+   "type": "lesson",
+   "title": "Special classes of functions; floor and ceiling",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.fn"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 15–16",
+   "pack": "m08"
+  },
+  {
+   "id": "d201",
+   "day": 201,
+   "type": "lesson",
+   "title": "Functional equations",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.funceq"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 19",
+   "pack": "m08"
+  },
+  {
+   "id": "d202",
+   "day": 202,
+   "type": "lesson",
+   "title": "Advanced strategies: symmetry, substitution",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.strat"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 20",
+   "pack": "m08"
+  },
+  {
+   "id": "d203",
+   "day": 203,
+   "type": "trial",
+   "title": "Weekly Trial 29",
+   "unit": "IA",
+   "skills": [],
+   "pack": "m08"
+  },
+  {
+   "id": "d204",
+   "day": 204,
+   "type": "lesson",
+   "title": "Polynomials with integer coefficients",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.intpoly"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 7–8",
+   "pack": "m08"
+  },
+  {
+   "id": "d205",
+   "day": 205,
+   "type": "lesson",
+   "title": "Systems of nonlinear equations",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.nlsys"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 1",
+   "pack": "m08"
+  },
+  {
+   "id": "d206",
+   "day": 206,
+   "type": "lesson",
+   "title": "Logarithm problems for contests",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.logcontest"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 13",
+   "pack": "m08"
+  },
+  {
+   "id": "d207",
+   "day": 207,
+   "type": "lesson",
+   "title": "Floor function problems",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.floor"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 16",
+   "pack": "m08"
+  },
+  {
+   "id": "d208",
+   "day": 208,
+   "type": "lesson",
+   "title": "Complex numbers in algebra problems",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.complex2"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 3",
+   "pack": "m08"
+  },
+  {
+   "id": "d209",
+   "day": 209,
+   "type": "lesson",
+   "title": "Telescoping sums and products",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.telescope"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 17",
+   "pack": "m08"
+  },
+  {
+   "id": "d210",
+   "day": 210,
+   "type": "trial",
+   "title": "Weekly Trial 30",
+   "unit": "IA",
+   "skills": [],
+   "pack": "m08"
+  },
+  {
+   "id": "d211",
+   "day": 211,
+   "type": "lesson",
+   "title": "Inequality problems day",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.ineqday"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 12, 18",
+   "pack": "m08"
+  },
+  {
+   "id": "d212",
+   "day": 212,
+   "type": "lesson",
+   "title": "Polynomial problems day (AIME)",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.polyday"
+   ],
+   "book": null,
+   "pack": "m08"
+  },
+  {
+   "id": "d213",
+   "day": 213,
+   "type": "lesson",
+   "title": "Intermediate algebra review: polynomials",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.vieta",
+    "ia.roots2"
+   ],
+   "book": null,
+   "pack": "m08"
+  },
+  {
+   "id": "d214",
+   "day": 214,
+   "type": "lesson",
+   "title": "Intermediate algebra review: sequences and logs",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.series",
+    "ia.log"
+   ],
+   "book": null,
+   "pack": "m08"
+  },
+  {
+   "id": "d215",
+   "day": 215,
+   "type": "lesson",
+   "title": "Intermediate algebra contest set I",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.contest"
+   ],
+   "book": null,
+   "pack": "m08"
+  },
+  {
+   "id": "d216",
+   "day": 216,
+   "type": "lesson",
+   "title": "Intermediate algebra contest set II (AIME)",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.contest"
+   ],
+   "book": null,
+   "pack": "m08"
+  },
+  {
+   "id": "d217",
+   "day": 217,
+   "type": "trial",
+   "title": "Weekly Trial 31",
+   "unit": "IA",
+   "skills": [],
+   "pack": "m08"
+  },
+  {
+   "id": "d218",
+   "day": 218,
+   "type": "lesson",
+   "title": "Intermediate algebra contest set III",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.contest"
+   ],
+   "book": null,
+   "pack": "m08"
+  },
+  {
+   "id": "d219",
+   "day": 219,
+   "type": "lesson",
+   "title": "Intermediate algebra hard problems day",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.contest"
+   ],
+   "book": null,
+   "pack": "m08"
+  },
+  {
+   "id": "d220",
+   "day": 220,
+   "type": "lesson",
+   "title": "Intermediate algebra synthesis",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.contest"
+   ],
+   "book": null,
+   "pack": "m08"
+  },
+  {
+   "id": "d221",
+   "day": 221,
+   "type": "lesson",
+   "title": "Intermediate C&P: distributions and stars-and-bars, deeper",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.dist"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 7",
+   "pack": "m08"
+  },
+  {
+   "id": "d222",
+   "day": 222,
+   "type": "lesson",
+   "title": "Intermediate C&P: inclusion-exclusion, deeper",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.pie"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 3",
+   "pack": "m08"
+  },
+  {
+   "id": "d223",
+   "day": 223,
+   "type": "lesson",
+   "title": "Intermediate C&P: recursion",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.recur"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 9–10",
+   "pack": "m08"
+  },
+  {
+   "id": "d224",
+   "day": 224,
+   "type": "benchmark",
+   "title": "Benchmark 8",
+   "unit": "IA",
+   "skills": [],
+   "pack": "m08"
+  },
+  {
+   "id": "d225",
+   "day": 225,
+   "type": "lesson",
+   "title": "Intermediate C&P: conditional probability",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.cond"
+   ],
+   "book": "AoPS Intermediate C&P",
+   "pack": "m09"
+  },
+  {
+   "id": "d226",
+   "day": 226,
+   "type": "lesson",
+   "title": "Intermediate C&P: expected value, linearity",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.ev"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 1",
+   "pack": "m09"
+  },
+  {
+   "id": "d227",
+   "day": 227,
+   "type": "lesson",
+   "title": "Intermediate C&P: combinatorial identities",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.ident"
+   ],
+   "book": "AoPS Intermediate C&P",
+   "pack": "m09"
+  },
+  {
+   "id": "d228",
+   "day": 228,
+   "type": "lesson",
+   "title": "Intermediate C&P: generating functions",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.gen"
+   ],
+   "book": "AoPS Intermediate C&P",
+   "pack": "m09"
+  },
+  {
+   "id": "d229",
+   "day": 229,
+   "type": "lesson",
+   "title": "Intermediate C&P: bijections and constructive counting",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.biject"
+   ],
+   "book": "AoPS Intermediate C&P",
+   "pack": "m09"
+  },
+  {
+   "id": "d230",
+   "day": 230,
+   "type": "lesson",
+   "title": "Intermediate C&P: induction in counting",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.induct"
+   ],
+   "book": "AoPS Intermediate C&P Ch. 8",
+   "pack": "m09"
+  },
+  {
+   "id": "d231",
+   "day": 231,
+   "type": "trial",
+   "title": "Weekly Trial 33",
+   "unit": "IA",
+   "skills": [],
+   "pack": "m09"
+  },
+  {
+   "id": "d232",
+   "day": 232,
+   "type": "lesson",
+   "title": "C&P AIME set I",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.contest"
+   ],
+   "book": null,
+   "pack": "m09"
+  },
+  {
+   "id": "d233",
+   "day": 233,
+   "type": "lesson",
+   "title": "C&P AIME set II",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.contest"
+   ],
+   "book": null,
+   "pack": "m09"
+  },
+  {
+   "id": "d234",
+   "day": 234,
+   "type": "lesson",
+   "title": "C&P AIME set III",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.contest"
+   ],
+   "book": null,
+   "pack": "m09"
+  },
+  {
+   "id": "d235",
+   "day": 235,
+   "type": "lesson",
+   "title": "Combinatorics hard problems day",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.contest"
+   ],
+   "book": null,
+   "pack": "m09"
+  },
+  {
+   "id": "d236",
+   "day": 236,
+   "type": "lesson",
+   "title": "Combinatorics synthesis",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "icp.contest"
+   ],
+   "book": null,
+   "pack": "m09"
+  },
+  {
+   "id": "d237",
+   "day": 237,
+   "type": "mastery",
+   "title": "Intermediate Algebra & C&P mastery exam",
+   "unit": "IA",
+   "unitName": "Intermediate Algebra",
+   "skills": [
+    "ia.complex",
+    "ia.vieta",
+    "ia.amgm",
+    "ia.log",
+    "icp.pie",
+    "icp.recur",
+    "icp.ev"
+   ],
+   "book": null,
+   "pack": "m09"
+  },
+  {
+   "id": "d238",
+   "day": 238,
+   "type": "trial",
+   "title": "Weekly Trial 34",
+   "unit": "IA",
+   "skills": [],
+   "pack": "m09"
+  },
+  {
+   "id": "d239",
+   "day": 239,
+   "type": "lesson",
+   "title": "Functions review: transformations, composition, inverses",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.func"
+   ],
+   "book": "AoPS Precalculus Ch. 1",
+   "pack": "m09"
+  },
+  {
+   "id": "d240",
+   "day": 240,
+   "type": "lesson",
+   "title": "The unit circle and radians",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.unit"
+   ],
+   "book": "AoPS Precalculus 2.1–2.2",
+   "pack": "m09"
+  },
+  {
+   "id": "d241",
+   "day": 241,
+   "type": "lesson",
+   "title": "Graphs of trig functions and transformations",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.graph"
+   ],
+   "book": "AoPS Precalculus 2.3–2.4",
+   "pack": "m09"
+  },
+  {
+   "id": "d242",
+   "day": 242,
+   "type": "lesson",
+   "title": "Inverse trig functions",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.inv"
+   ],
+   "book": "AoPS Precalculus 2.5",
+   "pack": "m09"
+  },
+  {
+   "id": "d243",
+   "day": 243,
+   "type": "lesson",
+   "title": "Trig identities I: Pythagorean, angle sum/difference",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.ident1"
+   ],
+   "book": "AoPS Precalculus 3.1–3.2",
+   "pack": "m09"
+  },
+  {
+   "id": "d244",
+   "day": 244,
+   "type": "lesson",
+   "title": "Trig identities II: double and half angle, product-to-sum",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.ident2"
+   ],
+   "book": "AoPS Precalculus 3.3–3.4",
+   "pack": "m09"
+  },
+  {
+   "id": "d245",
+   "day": 245,
+   "type": "trial",
+   "title": "Weekly Trial 35",
+   "unit": "PC",
+   "skills": [],
+   "pack": "m09"
+  },
+  {
+   "id": "d246",
+   "day": 246,
+   "type": "lesson",
+   "title": "Solving trig equations",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.trigeq"
+   ],
+   "book": "AoPS Precalculus Ch. 3",
+   "pack": "m09"
+  },
+  {
+   "id": "d247",
+   "day": 247,
+   "type": "lesson",
+   "title": "Trig in triangles: laws, areas, applications",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.tri"
+   ],
+   "book": "AoPS Precalculus Ch. 4",
+   "pack": "m09"
+  },
+  {
+   "id": "d248",
+   "day": 248,
+   "type": "lesson",
+   "title": "Parametric equations",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.param"
+   ],
+   "book": "AoPS Precalculus 5.1",
+   "pack": "m09"
+  },
+  {
+   "id": "d249",
+   "day": 249,
+   "type": "lesson",
+   "title": "Polar coordinates and polar graphs",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.polar"
+   ],
+   "book": "AoPS Precalculus 5.2",
+   "pack": "m09"
+  },
+  {
+   "id": "d250",
+   "day": 250,
+   "type": "lesson",
+   "title": "Exponential and logarithmic functions, modeling",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.explog"
+   ],
+   "book": "AoPS Intermediate Algebra Ch. 13",
+   "pack": "m09"
+  },
+  {
+   "id": "d251",
+   "day": 251,
+   "type": "lesson",
+   "title": "Complex numbers: polar form, De Moivre",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.cpolar"
+   ],
+   "book": "AoPS Precalculus 7.1–7.2",
+   "pack": "m09"
+  },
+  {
+   "id": "d252",
+   "day": 252,
+   "type": "benchmark",
+   "title": "Benchmark 9",
+   "unit": "PC",
+   "skills": [],
+   "pack": "m09"
+  },
+  {
+   "id": "d253",
+   "day": 253,
+   "type": "lesson",
+   "title": "Roots of unity",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.rou"
+   ],
+   "book": "AoPS Precalculus 7.3–7.4",
+   "pack": "m10"
+  },
+  {
+   "id": "d254",
+   "day": 254,
+   "type": "lesson",
+   "title": "Complex numbers and geometry",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.cgeo"
+   ],
+   "book": "AoPS Precalculus Ch. 8",
+   "pack": "m10"
+  },
+  {
+   "id": "d255",
+   "day": 255,
+   "type": "lesson",
+   "title": "Vectors and the dot product",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.vec"
+   ],
+   "book": "AoPS Precalculus 9.1–9.4",
+   "pack": "m10"
+  },
+  {
+   "id": "d256",
+   "day": 256,
+   "type": "lesson",
+   "title": "Matrices, determinants, transformations",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.mat"
+   ],
+   "book": "AoPS Precalculus Ch. 10",
+   "pack": "m10"
+  },
+  {
+   "id": "d257",
+   "day": 257,
+   "type": "lesson",
+   "title": "3D vectors and the cross product",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.vec3"
+   ],
+   "book": "AoPS Precalculus Ch. 11–12",
+   "pack": "m10"
+  },
+  {
+   "id": "d258",
+   "day": 258,
+   "type": "lesson",
+   "title": "Limits, intuitively",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.limit"
+   ],
+   "book": "AoPS Vol. 2 Ch. 8",
+   "pack": "m10"
+  },
+  {
+   "id": "d259",
+   "day": 259,
+   "type": "trial",
+   "title": "Weekly Trial 37",
+   "unit": "PC",
+   "skills": [],
+   "pack": "m10"
+  },
+  {
+   "id": "d260",
+   "day": 260,
+   "type": "lesson",
+   "title": "Trig in contest problems",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.trigcontest"
+   ],
+   "book": "AoPS Vol. 2 Ch. 2",
+   "pack": "m10"
+  },
+  {
+   "id": "d261",
+   "day": 261,
+   "type": "lesson",
+   "title": "Polar and parametric review",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.param",
+    "pc.polar"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d262",
+   "day": 262,
+   "type": "lesson",
+   "title": "Matrices and transformations review",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.mat"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d263",
+   "day": 263,
+   "type": "lesson",
+   "title": "Precalculus review: functions and logs",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.func",
+    "pc.explog"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d264",
+   "day": 264,
+   "type": "lesson",
+   "title": "Precalculus hard problems day II",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.contest"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d265",
+   "day": 265,
+   "type": "lesson",
+   "title": "Precalculus contest set (AMC 12 trig and complex)",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.contest"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d266",
+   "day": 266,
+   "type": "trial",
+   "title": "Weekly Trial 38",
+   "unit": "PC",
+   "skills": [],
+   "pack": "m10"
+  },
+  {
+   "id": "d267",
+   "day": 267,
+   "type": "lesson",
+   "title": "Precalculus contest set II",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.contest"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d268",
+   "day": 268,
+   "type": "lesson",
+   "title": "Precalculus synthesis",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.contest"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d269",
+   "day": 269,
+   "type": "lesson",
+   "title": "Precalculus hard problems day",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.contest"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d270",
+   "day": 270,
+   "type": "lesson",
+   "title": "Precalculus review: trig",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.ident2",
+    "pc.trigeq"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d271",
+   "day": 271,
+   "type": "lesson",
+   "title": "Precalculus review: complex and vectors",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.rou",
+    "pc.vec"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d272",
+   "day": 272,
+   "type": "mastery",
+   "title": "Precalculus mastery exam",
+   "unit": "PC",
+   "unitName": "Precalculus",
+   "skills": [
+    "pc.unit",
+    "pc.ident2",
+    "pc.trigeq",
+    "pc.polar",
+    "pc.cpolar",
+    "pc.rou",
+    "pc.vec"
+   ],
+   "book": null,
+   "pack": "m10"
+  },
+  {
+   "id": "d273",
+   "day": 273,
+   "type": "trial",
+   "title": "Weekly Trial 39",
+   "unit": "PC",
+   "skills": [],
+   "pack": "m10"
+  },
+  {
+   "id": "d274",
+   "day": 274,
+   "type": "lesson",
+   "title": "Limits: the idea and estimating from graphs and tables",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.lim"
+   ],
+   "book": "AP Calculus CED 1.1–1.4; OpenStax Calculus Vol. 1 2.1–2.2",
+   "pack": "m10"
+  },
+  {
+   "id": "d275",
+   "day": 275,
+   "type": "lesson",
+   "title": "Limit laws and algebraic manipulation",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.limalg"
+   ],
+   "book": "AP Calculus CED 1.5–1.7; OpenStax Calculus Vol. 1 2.3",
+   "pack": "m10"
+  },
+  {
+   "id": "d276",
+   "day": 276,
+   "type": "lesson",
+   "title": "Squeeze theorem; trig limits",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.squeeze"
+   ],
+   "book": "AP Calculus CED 1.8–1.9",
+   "pack": "m10"
+  },
+  {
+   "id": "d277",
+   "day": 277,
+   "type": "lesson",
+   "title": "Continuity and discontinuities",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.cont"
+   ],
+   "book": "AP Calculus CED 1.10–1.13; OpenStax Calculus Vol. 1 2.4",
+   "pack": "m10"
+  },
+  {
+   "id": "d278",
+   "day": 278,
+   "type": "lesson",
+   "title": "Limits at infinity; asymptotes",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.liminf"
+   ],
+   "book": "AP Calculus CED 1.14–1.15",
+   "pack": "m10"
+  },
+  {
+   "id": "d279",
+   "day": 279,
+   "type": "lesson",
+   "title": "Intermediate Value Theorem; formal limit definition",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.ivt"
+   ],
+   "book": "AP Calculus CED 1.16; OpenStax Calculus Vol. 1 2.5",
+   "pack": "m10"
+  },
+  {
+   "id": "d280",
+   "day": 280,
+   "type": "benchmark",
+   "title": "Benchmark 10",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m10"
+  },
+  {
+   "id": "d281",
+   "day": 281,
+   "type": "lesson",
+   "title": "The derivative: rate of change and definition",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.deriv"
+   ],
+   "book": "AP Calculus CED 2.1–2.3; OpenStax Calculus Vol. 1 3.1",
+   "pack": "m11"
+  },
+  {
+   "id": "d282",
+   "day": 282,
+   "type": "lesson",
+   "title": "Differentiability; power rule",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.power"
+   ],
+   "book": "AP Calculus CED 2.4–2.6",
+   "pack": "m11"
+  },
+  {
+   "id": "d283",
+   "day": 283,
+   "type": "lesson",
+   "title": "Derivatives of sin, cos, e^x, ln x",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.basic"
+   ],
+   "book": "AP Calculus CED 2.7",
+   "pack": "m11"
+  },
+  {
+   "id": "d284",
+   "day": 284,
+   "type": "lesson",
+   "title": "Product and quotient rules",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.prodquot"
+   ],
+   "book": "AP Calculus CED 2.8–2.9",
+   "pack": "m11"
+  },
+  {
+   "id": "d285",
+   "day": 285,
+   "type": "lesson",
+   "title": "Derivatives of other trig functions",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.trigderiv"
+   ],
+   "book": "AP Calculus CED 2.10",
+   "pack": "m11"
+  },
+  {
+   "id": "d286",
+   "day": 286,
+   "type": "lesson",
+   "title": "The chain rule",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.chain"
+   ],
+   "book": "AP Calculus CED 3.1",
+   "pack": "m11"
+  },
+  {
+   "id": "d287",
+   "day": 287,
+   "type": "trial",
+   "title": "Weekly Trial 41",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m11"
+  },
+  {
+   "id": "d288",
+   "day": 288,
+   "type": "lesson",
+   "title": "Implicit differentiation",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.implicit"
+   ],
+   "book": "AP Calculus CED 3.2",
+   "pack": "m11"
+  },
+  {
+   "id": "d289",
+   "day": 289,
+   "type": "lesson",
+   "title": "Inverse functions and inverse trig derivatives",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.invderiv"
+   ],
+   "book": "AP Calculus CED 3.3–3.4",
+   "pack": "m11"
+  },
+  {
+   "id": "d290",
+   "day": 290,
+   "type": "lesson",
+   "title": "Selecting procedures; higher-order derivatives",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.higher"
+   ],
+   "book": "AP Calculus CED 3.5–3.6",
+   "pack": "m11"
+  },
+  {
+   "id": "d291",
+   "day": 291,
+   "type": "mastery",
+   "title": "Calculus checkpoint: derivatives",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.chain",
+    "ca.implicit",
+    "ca.prodquot",
+    "ca.invderiv"
+   ],
+   "book": null,
+   "pack": "m11"
+  },
+  {
+   "id": "d292",
+   "day": 292,
+   "type": "lesson",
+   "title": "Motion: position, velocity, acceleration",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.motion"
+   ],
+   "book": "AP Calculus CED 4.1–4.3",
+   "pack": "m11"
+  },
+  {
+   "id": "d293",
+   "day": 293,
+   "type": "lesson",
+   "title": "Related rates",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.related"
+   ],
+   "book": "AP Calculus CED 4.4–4.6",
+   "pack": "m11"
+  },
+  {
+   "id": "d294",
+   "day": 294,
+   "type": "trial",
+   "title": "Weekly Trial 42",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m11"
+  },
+  {
+   "id": "d295",
+   "day": 295,
+   "type": "lesson",
+   "title": "Linearization and L'Hospital's rule",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.lhop"
+   ],
+   "book": "AP Calculus CED 4.6–4.7",
+   "pack": "m11"
+  },
+  {
+   "id": "d296",
+   "day": 296,
+   "type": "lesson",
+   "title": "Mean Value Theorem; extreme value theorem",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.mvt"
+   ],
+   "book": "AP Calculus CED 5.1–5.2",
+   "pack": "m11"
+  },
+  {
+   "id": "d297",
+   "day": 297,
+   "type": "lesson",
+   "title": "Increasing/decreasing; first derivative test",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.inc"
+   ],
+   "book": "AP Calculus CED 5.3–5.5",
+   "pack": "m11"
+  },
+  {
+   "id": "d298",
+   "day": 298,
+   "type": "lesson",
+   "title": "Concavity; second derivative test",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.concave"
+   ],
+   "book": "AP Calculus CED 5.6–5.9",
+   "pack": "m11"
+  },
+  {
+   "id": "d299",
+   "day": 299,
+   "type": "lesson",
+   "title": "Curve sketching; connecting f, f', f''",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.sketch"
+   ],
+   "book": "AP Calculus CED 5.9",
+   "pack": "m11"
+  },
+  {
+   "id": "d300",
+   "day": 300,
+   "type": "lesson",
+   "title": "Optimization",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.opt"
+   ],
+   "book": "AP Calculus CED 5.10–5.11",
+   "pack": "m11"
+  },
+  {
+   "id": "d301",
+   "day": 301,
+   "type": "trial",
+   "title": "Weekly Trial 43",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m11"
+  },
+  {
+   "id": "d302",
+   "day": 302,
+   "type": "lesson",
+   "title": "Behaviors of implicit relations",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.implicit2"
+   ],
+   "book": "AP Calculus CED 5.12",
+   "pack": "m11"
+  },
+  {
+   "id": "d303",
+   "day": 303,
+   "type": "lesson",
+   "title": "Accumulation; Riemann sums",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.riemann"
+   ],
+   "book": "AP Calculus CED 6.1–6.3",
+   "pack": "m11"
+  },
+  {
+   "id": "d304",
+   "day": 304,
+   "type": "lesson",
+   "title": "Definite integrals and the Fundamental Theorem",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.ftc"
+   ],
+   "book": "AP Calculus CED 6.4–6.7",
+   "pack": "m11"
+  },
+  {
+   "id": "d305",
+   "day": 305,
+   "type": "lesson",
+   "title": "Antiderivatives and indefinite integrals",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.antideriv"
+   ],
+   "book": "AP Calculus CED 6.8",
+   "pack": "m11"
+  },
+  {
+   "id": "d306",
+   "day": 306,
+   "type": "lesson",
+   "title": "u-substitution",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.usub"
+   ],
+   "book": "AP Calculus CED 6.9",
+   "pack": "m11"
+  },
+  {
+   "id": "d307",
+   "day": 307,
+   "type": "lesson",
+   "title": "Long division and completing the square in integrals",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.intalg"
+   ],
+   "book": "AP Calculus CED 6.10",
+   "pack": "m11"
+  },
+  {
+   "id": "d308",
+   "day": 308,
+   "type": "benchmark",
+   "title": "Benchmark 11",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m11"
+  },
+  {
+   "id": "d309",
+   "day": 309,
+   "type": "lesson",
+   "title": "Integration by parts (BC)",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.parts"
+   ],
+   "book": "AP Calculus CED 6.11",
+   "pack": "m12"
+  },
+  {
+   "id": "d310",
+   "day": 310,
+   "type": "lesson",
+   "title": "Partial fractions (BC)",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.partial"
+   ],
+   "book": "AP Calculus CED 6.12",
+   "pack": "m12"
+  },
+  {
+   "id": "d311",
+   "day": 311,
+   "type": "lesson",
+   "title": "Improper integrals (BC)",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.improper"
+   ],
+   "book": "AP Calculus CED 6.13",
+   "pack": "m12"
+  },
+  {
+   "id": "d312",
+   "day": 312,
+   "type": "lesson",
+   "title": "Selecting integration techniques",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.inttech"
+   ],
+   "book": "AP Calculus CED 6.14",
+   "pack": "m12"
+  },
+  {
+   "id": "d313",
+   "day": 313,
+   "type": "lesson",
+   "title": "Differential equations; slope fields",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.de"
+   ],
+   "book": "AP Calculus CED 7.1–7.4",
+   "pack": "m12"
+  },
+  {
+   "id": "d314",
+   "day": 314,
+   "type": "lesson",
+   "title": "Euler's method (BC)",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.euler"
+   ],
+   "book": "AP Calculus CED 7.5",
+   "pack": "m12"
+  },
+  {
+   "id": "d315",
+   "day": 315,
+   "type": "trial",
+   "title": "Weekly Trial 45",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m12"
+  },
+  {
+   "id": "d316",
+   "day": 316,
+   "type": "lesson",
+   "title": "Separation of variables",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.separ"
+   ],
+   "book": "AP Calculus CED 7.6–7.7",
+   "pack": "m12"
+  },
+  {
+   "id": "d317",
+   "day": 317,
+   "type": "lesson",
+   "title": "Exponential models",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.expmodel"
+   ],
+   "book": "AP Calculus CED 7.8",
+   "pack": "m12"
+  },
+  {
+   "id": "d318",
+   "day": 318,
+   "type": "lesson",
+   "title": "Logistic models (BC)",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.logistic"
+   ],
+   "book": "AP Calculus CED 7.9",
+   "pack": "m12"
+  },
+  {
+   "id": "d319",
+   "day": 319,
+   "type": "lesson",
+   "title": "Average value; motion with integrals",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.avg"
+   ],
+   "book": "AP Calculus CED 8.1–8.3",
+   "pack": "m12"
+  },
+  {
+   "id": "d320",
+   "day": 320,
+   "type": "lesson",
+   "title": "Area between curves",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.areaint"
+   ],
+   "book": "AP Calculus CED 8.4–8.6",
+   "pack": "m12"
+  },
+  {
+   "id": "d321",
+   "day": 321,
+   "type": "lesson",
+   "title": "Volumes with cross sections",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.crossvol"
+   ],
+   "book": "AP Calculus CED 8.7–8.8",
+   "pack": "m12"
+  },
+  {
+   "id": "d322",
+   "day": 322,
+   "type": "trial",
+   "title": "Weekly Trial 46",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m12"
+  },
+  {
+   "id": "d323",
+   "day": 323,
+   "type": "lesson",
+   "title": "Volumes of revolution: discs and washers",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.revol"
+   ],
+   "book": "AP Calculus CED 8.9–8.12",
+   "pack": "m12"
+  },
+  {
+   "id": "d324",
+   "day": 324,
+   "type": "lesson",
+   "title": "Arc length (BC)",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.arclen"
+   ],
+   "book": "AP Calculus CED 8.13",
+   "pack": "m12"
+  },
+  {
+   "id": "d325",
+   "day": 325,
+   "type": "mastery",
+   "title": "Calculus checkpoint: integrals and applications",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.ftc",
+    "ca.usub",
+    "ca.parts",
+    "ca.separ",
+    "ca.revol"
+   ],
+   "book": null,
+   "pack": "m12"
+  },
+  {
+   "id": "d326",
+   "day": 326,
+   "type": "lesson",
+   "title": "Parametric equations: derivatives",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.paramd"
+   ],
+   "book": "AP Calculus CED 9.1–9.3",
+   "pack": "m12"
+  },
+  {
+   "id": "d327",
+   "day": 327,
+   "type": "lesson",
+   "title": "Parametric arc length; vector-valued functions",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.vecfn"
+   ],
+   "book": "AP Calculus CED 9.4–9.6",
+   "pack": "m12"
+  },
+  {
+   "id": "d328",
+   "day": 328,
+   "type": "lesson",
+   "title": "Motion along curves with vectors",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.vecmotion"
+   ],
+   "book": "AP Calculus CED 9.6",
+   "pack": "m12"
+  },
+  {
+   "id": "d329",
+   "day": 329,
+   "type": "trial",
+   "title": "Weekly Trial 47",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m12"
+  },
+  {
+   "id": "d330",
+   "day": 330,
+   "type": "lesson",
+   "title": "Polar derivatives",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.polard"
+   ],
+   "book": "AP Calculus CED 9.7",
+   "pack": "m12"
+  },
+  {
+   "id": "d331",
+   "day": 331,
+   "type": "lesson",
+   "title": "Polar area",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.polararea"
+   ],
+   "book": "AP Calculus CED 9.8–9.9",
+   "pack": "m12"
+  },
+  {
+   "id": "d332",
+   "day": 332,
+   "type": "lesson",
+   "title": "Sequences and series; geometric series",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.seq"
+   ],
+   "book": "AP Calculus CED 10.1–10.2",
+   "pack": "m12"
+  },
+  {
+   "id": "d333",
+   "day": 333,
+   "type": "lesson",
+   "title": "The nth term test; integral test; p-series",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.inttest"
+   ],
+   "book": "AP Calculus CED 10.3–10.5",
+   "pack": "m12"
+  },
+  {
+   "id": "d334",
+   "day": 334,
+   "type": "lesson",
+   "title": "Comparison tests",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.comp"
+   ],
+   "book": "AP Calculus CED 10.6",
+   "pack": "m12"
+  },
+  {
+   "id": "d335",
+   "day": 335,
+   "type": "lesson",
+   "title": "Alternating series; error bound",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.alt"
+   ],
+   "book": "AP Calculus CED 10.7–10.8",
+   "pack": "m12"
+  },
+  {
+   "id": "d336",
+   "day": 336,
+   "type": "benchmark",
+   "title": "Benchmark 12",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m12"
+  },
+  {
+   "id": "d337",
+   "day": 337,
+   "type": "lesson",
+   "title": "Ratio test; absolute vs conditional convergence",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.ratio"
+   ],
+   "book": "AP Calculus CED 10.8–10.9",
+   "pack": "m13"
+  },
+  {
+   "id": "d338",
+   "day": 338,
+   "type": "lesson",
+   "title": "Taylor polynomials",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.taylor"
+   ],
+   "book": "AP Calculus CED 10.10–10.11",
+   "pack": "m13"
+  },
+  {
+   "id": "d339",
+   "day": 339,
+   "type": "lesson",
+   "title": "Lagrange error bound",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.lagrange"
+   ],
+   "book": "AP Calculus CED 10.12",
+   "pack": "m13"
+  },
+  {
+   "id": "d340",
+   "day": 340,
+   "type": "lesson",
+   "title": "Radius and interval of convergence",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.radius"
+   ],
+   "book": "AP Calculus CED 10.13",
+   "pack": "m13"
+  },
+  {
+   "id": "d341",
+   "day": 341,
+   "type": "lesson",
+   "title": "Taylor and Maclaurin series",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.maclaurin"
+   ],
+   "book": "AP Calculus CED 10.14",
+   "pack": "m13"
+  },
+  {
+   "id": "d342",
+   "day": 342,
+   "type": "lesson",
+   "title": "Representing functions as power series",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.powser"
+   ],
+   "book": "AP Calculus CED 10.15",
+   "pack": "m13"
+  },
+  {
+   "id": "d343",
+   "day": 343,
+   "type": "trial",
+   "title": "Weekly Trial 49",
+   "unit": "CA",
+   "skills": [],
+   "pack": "m13"
+  },
+  {
+   "id": "d344",
+   "day": 344,
+   "type": "lesson",
+   "title": "Calculus free-response practice I",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.frq"
+   ],
+   "book": "AP Calculus CED sample FRQs",
+   "pack": "m13"
+  },
+  {
+   "id": "d345",
+   "day": 345,
+   "type": "lesson",
+   "title": "Calculus free-response practice II",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.frq"
+   ],
+   "book": "AP Calculus CED sample FRQs",
+   "pack": "m13"
+  },
+  {
+   "id": "d346",
+   "day": 346,
+   "type": "lesson",
+   "title": "Calculus multiple-choice practice",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.mcq"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d347",
+   "day": 347,
+   "type": "lesson",
+   "title": "Calculus synthesis",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.frq"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d348",
+   "day": 348,
+   "type": "mastery",
+   "title": "Calculus BC mastery exam",
+   "unit": "CA",
+   "unitName": "Calculus (AP BC)",
+   "skills": [
+    "ca.chain",
+    "ca.opt",
+    "ca.ftc",
+    "ca.parts",
+    "ca.separ",
+    "ca.polararea",
+    "ca.taylor",
+    "ca.radius"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d349",
+   "day": 349,
+   "type": "lesson",
+   "title": "Full AP Calculus BC practice exam (part 1)",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "ca.frq",
+    "ca.mcq"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d350",
+   "day": 350,
+   "type": "trial",
+   "title": "Weekly Trial 50",
+   "unit": "FN",
+   "skills": [],
+   "pack": "m13"
+  },
+  {
+   "id": "d351",
+   "day": 351,
+   "type": "lesson",
+   "title": "Full AP Calculus BC practice exam (part 2) and review",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "ca.frq"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d352",
+   "day": 352,
+   "type": "lesson",
+   "title": "AMC 12 practice test I",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.amc"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d353",
+   "day": 353,
+   "type": "lesson",
+   "title": "AMC 12 practice test II",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.amc"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d354",
+   "day": 354,
+   "type": "lesson",
+   "title": "AIME practice I",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.aime"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d355",
+   "day": 355,
+   "type": "lesson",
+   "title": "AIME practice II",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.aime"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d356",
+   "day": 356,
+   "type": "lesson",
+   "title": "Weakest-skills rebuild I",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.rebuild"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d357",
+   "day": 357,
+   "type": "trial",
+   "title": "Weekly Trial 51",
+   "unit": "FN",
+   "skills": [],
+   "pack": "m13"
+  },
+  {
+   "id": "d358",
+   "day": 358,
+   "type": "lesson",
+   "title": "Weakest-skills rebuild II",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.rebuild"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d359",
+   "day": 359,
+   "type": "lesson",
+   "title": "AMC 12 practice test III",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.amc"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d360",
+   "day": 360,
+   "type": "lesson",
+   "title": "AIME practice III",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.aime"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d361",
+   "day": 361,
+   "type": "lesson",
+   "title": "Cumulative review: algebra and number theory",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.review"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d362",
+   "day": 362,
+   "type": "lesson",
+   "title": "Cumulative review: geometry and counting",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.review"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d363",
+   "day": 363,
+   "type": "lesson",
+   "title": "Final review: your error log",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.review"
+   ],
+   "book": null,
+   "pack": "m13"
+  },
+  {
+   "id": "d364",
+   "day": 364,
+   "type": "benchmark",
+   "title": "Benchmark 13",
+   "unit": "FN",
+   "skills": [],
+   "pack": "m13"
+  },
+  {
+   "id": "d365",
+   "day": 365,
+   "type": "benchmark",
+   "title": "The Final Trial",
+   "unit": "FN",
+   "unitName": "Final Synthesis",
+   "skills": [
+    "fn.final"
+   ],
+   "book": null,
+   "pack": "m14"
+  }
+ ]
+}

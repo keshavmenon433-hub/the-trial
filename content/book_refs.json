@@ -1,0 +1,26 @@
+{
+ "note": "Chapter/section titles and numbers only, used for assigning book work. No book text is copied into the app.",
+ "prealgebra": {"have": true, "chapters": {
+  "1":"Properties of Arithmetic (1.2 Addition, 1.3 Multiplication, 1.4 Negation, 1.5 Subtraction, 1.6 Reciprocals, 1.7 Division)",
+  "2":"Exponents (2.1 Squares, 2.2 Higher Exponents, 2.3 Zero as an Exponent, 2.4 Negative Exponents)",
+  "3":"Number Theory (3.1 Multiples, 3.2 Divisibility Tests, 3.3 Prime Numbers, 3.4 Prime Factorization, 3.5 LCM, 3.6 Divisors, 3.7 GCD)",
+  "4":"Fractions (4.1 What is a Fraction, 4.2 Multiplying, 4.3 Dividing, 4.4 Powers, 4.5 Simplest Form, 4.6 Comparing, 4.7 Adding/Subtracting, 4.8 Mixed Numbers)",
+  "5":"Equations and Inequalities (5.1 Expressions, 5.2-5.3 Solving Linear Equations I-II, 5.4 Word Problems, 5.5 Inequalities)",
+  "6":"Decimals (6.1 Arithmetic, 6.2 Rounding, 6.3 Decimals and Fractions, 6.4 Repeating Decimals)",
+  "7":"Ratios, Conversions, and Rates (7.1 Ratio, 7.2 Multi-way Ratios, 7.3 Proportions, 7.4 Conversions, 7.5 Speed, 7.6 Other Rates)",
+  "8":"Percents (8.1 What is a Percent, 8.2 Word Problems, 8.3 Percent Increase and Decrease)",
+  "9":"Square Roots (9.1 From Squares to Square Roots, 9.2 Non-square Integers, 9.3 Arithmetic with Square Roots)",
+  "10":"Angles (10.1 Measuring Angles, 10.2 Parallel Lines, 10.3 Angles in Polygons)",
+  "11":"Perimeter and Area (11.1 Measuring Segments, 11.2 Area, 11.3 Circles)",
+  "12":"Right Triangles and Quadrilaterals (12.1 Pythagorean Theorem, 12.2 Special Triangles, 12.3 Types of Quadrilaterals)",
+  "13":"Data and Statistics (13.1 Basic Statistics, 13.2 Limits of Basic Statistics, 13.3 Tables, Graphs, Charts)",
+  "14":"Counting (14.1 Addition and Subtraction, 14.2 Multiplication Principle, 14.3 Casework, 14.4 Counting Pairs, 14.5 Probability)",
+  "15":"Problem-Solving Strategies (15.1 Find a Pattern, 15.2 Make a List, 15.3 Draw a Picture, 15.4 Work Backwards)"}},
+ "intermediate_algebra": {"have": true, "chapters": {"1":"Basic Techniques for Solving Equations","2":"Functions Review","3":"Complex Numbers","4":"Quadratics","5":"Conics","6":"Polynomial Division","7":"Polynomial Roots I","8":"Polynomial Roots II","9":"Factoring Multivariable Polynomials","10":"Sequences and Series","11":"Identities, Manipulations, and Induction","12":"Inequalities","13":"Exponents and Logarithms","14":"Radicals","15":"Special Classes of Functions","16":"Piecewise Defined Functions","17":"More Sequences and Series","18":"More Inequalities","19":"Functional Equations","20":"Some Advanced Strategies"}},
+ "precalculus": {"have": true, "chapters": {"1":"Functions Review","2":"Intro to Trig Functions (unit circle, radians, graphs, transformations, inverse trig)","3":"Trig Identities","4":"Trig and Geometry (right triangles, Law of Cosines, Law of Sines)","5":"Parameterization, Polar, 3D Coordinates","6":"Complex Numbers","7":"Polar/Exponential Form, Roots of Unity","8":"Complex Numbers and Geometry","9":"Vectors","10":"Matrices","11":"Vectors and Matrices in 3D I","12":"Vectors and Matrices in 3D II","13":"Vector Geometry"}},
+ "volume2": {"have": true, "chapters": {"1":"Logarithms","2":"Trigonometry","4":"Cyclic Quadrilaterals","5":"Conics and Polar Coordinates","6":"Polynomials","7":"Functions","8":"Limits","9":"Complex Numbers","10":"Vectors and Matrices","11":"Cross Products and Determinants","12":"Analytic Geometry","13":"Equations and Expressions","14":"Inequalities","15":"Combinatorics","16":"Sequences and Series"}},
+ "intermediate_cp": {"have": true, "chapters": {"1":"Review of Counting & Probability Basics","3":"Principle of Inclusion-Exclusion","5":"Pigeonhole Principle","7":"Distributions","8":"Mathematical Induction","9":"Fibonacci Numbers"}},
+ "volume1_solutions": {"have": true, "textbook": false},
+ "intro_cp_solutions": {"have": true, "textbook": false},
+ "missing": ["Introduction to Algebra","Introduction to Geometry","Introduction to Number Theory","Introduction to Counting & Probability (textbook)","Calculus","Volume 1 (textbook)"]
+}
